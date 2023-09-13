@@ -1,0 +1,6742 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define basic fonts and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Banner styles */
+.banner {
+   
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Car options section styles */
+.car-options {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-options h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Form styles */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer{
+    background-color: #fff;
+}
+/* ****************  Cardekho CSS  ************ */
+
+@font-face {
+    font-display: block;
+    font-family: cd-fonts;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://stimg.cardekho.com/pwa/fonts/cd-fonts446.eot?9iyhtk);
+    src: url(https://stimg.cardekho.com/pwa/fonts/cd-fonts446.eot?9iyhtk#iefix) format("embedded-opentype"),url(https://stimg.cardekho.com/pwa/fonts/cd-fonts446.woff2?9iyhtk) format("woff2"),url(https://stimg.cardekho.com/pwa/fonts/cd-fonts446.woff?9iyhtk) format("woff"),url(https://stimg.cardekho.com/pwa/fonts/cd-fonts446.ttf?9iyhtk) format("truetype"),url(https://stimg.cardekho.com/pwa/fonts/cd-fonts446.svg?9iyhtk#icomoon) format("svg")
+}
+
+.icon-adas:before {
+    content: "\e9cc"
+}
+
+.icon-advance-internet:before {
+    content: "\e9cd"
+}
+
+.icon-linkedin:before {
+    content: "\e9cb"
+}
+
+.icon-Ic_mic:before {
+    content: "\e990"
+}
+
+.icon-battery-capacity:before {
+    content: "\e9c9"
+}
+
+.icon-shortlist-new:before {
+    content: "\e9c8"
+}
+
+.icon-sunroof:before {
+    content: "\e9c1"
+}
+
+.icon-off-roadIcon:before {
+    content: "\e9c0"
+}
+
+.icon-my-Appointments-red .path1:before {
+    color: #8498b0;
+    content: "\e9ba"
+}
+
+.icon-my-Appointments-red .path2:before {
+    color: #eb7178;
+    content: "\e9bb";
+    margin-left: -.94140625em
+}
+
+.icon-MyOrders:before {
+    color: #8498b0;
+    content: "\e9bc"
+}
+
+.icon-my-Appointments:before {
+    color: #8498b0;
+    content: "\e9b6"
+}
+
+.icon-my-order:before {
+    color: #8498b0;
+    content: "\e9b7"
+}
+
+.icon-setting:before {
+    color: #8498b0;
+    content: "\e9b8"
+}
+
+.icon-bs6Green:before {
+    color: #019e43;
+    content: "\e9af"
+}
+
+.icon-variantNew:before {
+    content: "\e9b2"
+}
+
+.icon-bs4:before {
+    content: "\e9ab"
+}
+
+.icon-bs6:before {
+    content: "\e9ac"
+}
+
+.icon-info_new:before {
+    content: "\e9a2"
+}
+
+.icon-mg:before {
+    content: "\e9a1"
+}
+
+.icon-hotdeals:before {
+    color: #ff531c;
+    content: "\e99f"
+}
+
+.icon-users:before {
+    color: #2176ae;
+    content: "\e9a4"
+}
+
+.icon-rc:before {
+    color: #2176ae;
+    content: "\e9a5"
+}
+
+.icon-calendra:before {
+    content: "\e9a7"
+}
+
+.icon-listcar:before {
+    content: "\e9a8"
+}
+
+.icon-cars-icon:before {
+    content: "\e999"
+}
+
+.icon-report:before {
+    content: "\e998"
+}
+
+.icon-motor-power:before {
+    content: "\e997"
+}
+
+.icon-carDekhoLogo:before {
+    color: #f75d34;
+    content: "\e98b"
+}
+
+.icon-gaadi-logo:before {
+    color: #db3826;
+    content: "\e98c"
+}
+
+.icon-notifications:before {
+    content: "\e989"
+}
+
+.icon-youtube:before {
+    content: "\e974"
+}
+
+.icon-instagram:before {
+    content: "\e975"
+}
+
+.icon-Variants:before {
+    content: "\e976"
+}
+
+.icon-cd_road-test:before {
+    content: "\e925"
+}
+
+.icon-miscellaneous:before {
+    content: "\e964"
+}
+
+.icon-perfomance:before {
+    content: "\e965"
+}
+
+.icon-price:before {
+    content: "\e96c"
+}
+
+.icon-specifications:before {
+    content: "\e96d"
+}
+
+.icon-airbag:before {
+    content: "\e96e"
+}
+
+.icon-bootspace:before {
+    content: "\e972"
+}
+
+.icon-features:before {
+    content: "\e973"
+}
+
+.icon-spare-parts:before {
+    content: "\e992"
+}
+
+.icon-faq:before {
+    content: "\e99d"
+}
+
+.icon-whatsapp:before {
+    color: #1bd741;
+    content: "\e991"
+}
+
+.icon-Tailgate-ajar:before {
+    content: "\e98d"
+}
+
+.icon-Low-Fuel-Warning:before {
+    content: "\e993"
+}
+
+.icon-start-stop:before {
+    content: "\e994"
+}
+
+.icon-reply:before {
+    content: "\e986"
+}
+
+.icon-location1:before {
+    content: "\e996"
+}
+
+.icon-location:before {
+    content: "\e985"
+}
+
+.icon-fuel-tank:before {
+    content: "\e984"
+}
+
+.icon-topspeed:before {
+    content: "\e982"
+}
+
+.icon-acceleration:before {
+    content: "\e983"
+}
+
+.icon-car-service:before {
+    content: "\e956"
+}
+
+.icon-download-app:before {
+    content: "\e97d"
+}
+
+.icon-safety-month:before {
+    content: "\e97e"
+}
+
+.icon-user-reviews:before {
+    content: "\e97f"
+}
+
+.icon-brochure:before {
+    content: "\e93c"
+}
+
+.icon-colors:before {
+    content: "\e93e"
+}
+
+.icon-dealers:before {
+    content: "\e93f"
+}
+
+.icon-emi-calculator:before {
+    content: "\e940"
+}
+
+.icon-expert-review:before {
+    content: "\e941"
+}
+
+.icon-insurance:before {
+    content: "\e942"
+}
+
+.icon-loans:before {
+    content: "\e943"
+}
+
+.icon-service-cost:before {
+    content: "\e946"
+}
+
+.icon-cd-video-play:before {
+    content: "\e920"
+}
+
+.icon-cd-feel-tha-car:before {
+    content: "\e91c"
+}
+
+.icon-cd-download:before {
+    content: "\e91d"
+}
+
+.icon-cd-color:before {
+    content: "\e91e"
+}
+
+.icon-brake-system:before {
+    content: "\e92d"
+}
+
+.icon-general-car:before {
+    content: "\e92e"
+}
+
+.icon-payload-towing:before {
+    content: "\e930"
+}
+
+.icon-steering:before {
+    content: "\e937"
+}
+
+.icon-dimension:before {
+    content: "\e923"
+}
+
+.icon-entertainment:before {
+    content: "\e924"
+}
+
+.icon-exterior:before {
+    content: "\e925"
+}
+
+.icon-interior:before {
+    content: "\e926"
+}
+
+.icon-others:before {
+    content: "\e927"
+}
+
+.icon-performance:before {
+    content: "\e928"
+}
+
+.icon-safety:before {
+    content: "\e929"
+}
+
+.icon-suspension:before {
+    content: "\e92c"
+}
+
+.icon-360:before {
+    content: "\e913"
+}
+
+.icon-big-saving:before {
+    color: #f75d34;
+    content: "\e915"
+}
+
+.icon-share:before {
+    content: "\e916"
+}
+
+.icon-info:before {
+    content: "\e917"
+}
+
+.icon-offers:before {
+    content: "\e90f"
+}
+
+.icon-india-no:before {
+    content: "\e910"
+}
+
+.icon-check:before {
+    color: #019e43;
+    content: "\e901"
+}
+
+.icon-deletearrow:before {
+    color: #e6274b;
+    content: "\e90a"
+}
+
+.icon-down-arrow:before {
+    content: "\e90b"
+}
+
+.icon-overview:before {
+    content: "\e90e"
+}
+
+.icon-sell-car:before {
+    content: "\e908"
+}
+
+.icon-back:before {
+    content: "\e902"
+}
+
+.icon-location-icon-homepage:before {
+    content: "\e911"
+}
+
+.icon-menu:before {
+    content: "\e912"
+}
+
+.icon-car-sold:before {
+    content: "\e97c"
+}
+
+.icon-cd_facebook:before {
+    color: #3b5998;
+    content: "\e91a"
+}
+
+.icon-cd_google-plus:before {
+    color: #dc4f42;
+    content: "\e92a"
+}
+
+.icon-cd_twitter:before {
+    content: "\e932"
+}
+
+.icon-cd-pinterest:before {
+    color: #cb2128;
+    content: "\e947"
+}
+
+.icon-cd-whatsapp:before {
+    color: #57bb63;
+    content: "\e97b"
+}
+
+.icon-delete:before {
+    content: "\e97a"
+}
+
+.icon-diesel:before {
+    content: "\e95a"
+}
+
+.icon-petrol:before {
+    content: "\e979"
+}
+
+.icon-addition:before {
+    content: "\e970"
+}
+
+.icon-subtraction:before {
+    content: "\e978"
+}
+
+.icon-torque:before {
+    content: "\e951"
+}
+
+.icon-Ground-clearence:before {
+    content: "\e977"
+}
+
+.icon-cng:before {
+    content: "\e96f"
+}
+
+.icon-lpg:before {
+    content: "\e9b3"
+}
+
+.icon-electric:before {
+    content: "\e9b4"
+}
+
+.icon-offer:before {
+    content: "\e945"
+}
+
+.icon-cd-BHP:before {
+    content: "\e94a"
+}
+
+.icon-cd-Dealer:before {
+    content: "\e94c"
+}
+
+.icon-cd-Dealer2:before {
+    content: "\e971"
+}
+
+.icon-cd-Engine:before {
+    content: "\e94d"
+}
+
+.icon-cd-Transmission:before {
+    content: "\e962"
+}
+
+.icon-cd-call_icon:before {
+    content: "\e949"
+}
+
+.icon-cd-comments:before {
+    content: "\e966"
+}
+
+.icon-cd-dealer-sol:before {
+    content: "\e969"
+}
+
+.icon-cd-fb-icon:before {
+    content: "\e948"
+}
+
+.icon-cd-filter:before {
+    content: "\e950"
+}
+
+.icon-cd-fuel:before {
+    content: "\e952"
+}
+
+.icon-cd-gallery:before {
+    content: "\e967"
+}
+
+.icon-cd-grid_icon:before {
+    content: "\e953"
+}
+
+.icon-cd-heart_filled:before {
+    color: #f75d34;
+    content: "\e954"
+}
+
+.icon-cd-kilometer:before {
+    content: "\e955"
+}
+
+.icon-cd-listing_view:before {
+    content: "\e957"
+}
+
+.icon-cd-milage:before {
+    content: "\e959"
+}
+
+.icon-cd-owner:before {
+    content: "\e94f"
+}
+
+.icon-cd-recent:before {
+    content: "\e95c"
+}
+
+.icon-cd-review:before {
+    content: "\e96a"
+}
+
+.icon-cd-search:before {
+    content: "\e95d"
+}
+
+.icon-cd-seats:before {
+    content: "\e95e"
+}
+
+.icon-cd-sorting:before {
+    content: "\e95f"
+}
+
+.icon-cd-support:before {
+    content: "\e968"
+}
+
+.icon-cd-transmission:before {
+    content: "\e94e"
+}
+
+.icon-cd-wheel:before {
+    content: "\e963"
+}
+
+.icon-cd-year:before {
+    content: "\e980"
+}
+
+.icon-cd_appstore:before {
+    content: "\e900"
+}
+
+.icon-cd_call:before {
+    content: "\e914"
+}
+
+.icon-cd_comments:before {
+    content: "\e90d"
+}
+
+.icon-cd_emi:before {
+    content: "\e905"
+}
+
+.icon-cd_grid-view:before {
+    content: "\e90c"
+}
+
+.icon-cd_home:before {
+    content: "\e91b"
+}
+
+.icon-cd_mail:before {
+    content: "\e91f"
+}
+
+.icon-cd_mobile-app:before {
+    content: "\e921"
+}
+
+.icon-cd-write-a-comment:before {
+    content: "\e96b"
+}
+
+.icon-cd_top-selling-model:before {
+    color: #6b6b6b;
+    content: "\e936"
+}
+
+.icon-cd_video:before {
+    content: "\e92b"
+}
+
+.icon-fulscreen:before {
+    content: "\e939"
+}
+
+.icon-msg-icon:before {
+    content: "\e944"
+}
+
+.icon-quote:before {
+    color: #6f7684;
+    content: "\e938"
+}
+
+.icon-star-full-empty:before {
+    content: "\e933"
+}
+
+.icon-star-full-fill:before {
+    color: #ffa236;
+    content: "\e935"
+}
+
+.icon-star-half-empty:before {
+    color: #ffa236;
+    content: "\e934"
+}
+
+.icon-view:before {
+    content: "\e93a"
+}
+
+.icon-cd_s:before {
+    content: "s"
+}
+
+.icon-cd_space:before {
+    content: " "
+}
+
+.icon-cd_dot:before {
+    content: "."
+}
+
+.icon-cd-thumbup:before {
+    content: "\e961"
+}
+
+.icon-cd-thumbdown:before {
+    content: "\e960"
+}
+
+.icon-facebook:before {
+    content: "\e907"
+}
+
+.icon-linkedin2:before {
+    content: "\e919"
+}
+
+.icon-twitter:before {
+    content: "\e92f"
+}
+
+* {
+    box-sizing: border-box
+}
+
+.gsc_container-fluid {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.gsc_container_hold {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.gsc_col-lg-1,.gsc_col-lg-10,.gsc_col-lg-11,.gsc_col-lg-12,.gsc_col-lg-2,.gsc_col-lg-3,.gsc_col-lg-4,.gsc_col-lg-5,.gsc_col-lg-6,.gsc_col-lg-7,.gsc_col-lg-8,.gsc_col-lg-9,.gsc_col-md-1,.gsc_col-md-10,.gsc_col-md-11,.gsc_col-md-12,.gsc_col-md-2,.gsc_col-md-3,.gsc_col-md-4,.gsc_col-md-5,.gsc_col-md-6,.gsc_col-md-7,.gsc_col-md-8,.gsc_col-md-9,.gsc_col-sm-1,.gsc_col-sm-10,.gsc_col-sm-11,.gsc_col-sm-12,.gsc_col-sm-2,.gsc_col-sm-3,.gsc_col-sm-4,.gsc_col-sm-5,.gsc_col-sm-6,.gsc_col-sm-7,.gsc_col-sm-8,.gsc_col-sm-9,.gsc_col-xs-1,.gsc_col-xs-10,.gsc_col-xs-11,.gsc_col-xs-12,.gsc_col-xs-2,.gsc_col-xs-3,.gsc_col-xs-4,.gsc_col-xs-5,.gsc_col-xs-6,.gsc_col-xs-7,.gsc_col-xs-8,.gsc_col-xs-9 {
+    min-height: 1px;
+    position: relative
+}
+
+.gsc_col-xs-1,.gsc_col-xs-10,.gsc_col-xs-11,.gsc_col-xs-12,.gsc_col-xs-2,.gsc_col-xs-3,.gsc_col-xs-4,.gsc_col-xs-5,.gsc_col-xs-6,.gsc_col-xs-7,.gsc_col-xs-8,.gsc_col-xs-9 {
+    float: left
+}
+
+.gsc_col-xs-11 {
+    width: 91.66666667%
+}
+
+.gsc_col-xs-10 {
+    width: 83.33333333%
+}
+
+.gsc_col-xs-9 {
+    width: 75%
+}
+
+.gsc_col-xs-7 {
+    width: 58.33333333%
+}
+
+.gsc_col-xs-6 {
+    width: 50%
+}
+
+.gsc_col-xs-5 {
+    width: 41.66666667%
+}
+
+.gsc_col-xs-3 {
+    width: 25%
+}
+
+.gsc_col-xs-2 {
+    width: 16.66666667%
+}
+
+.gsc_col-xs-1 {
+    width: 8.33333333%
+}
+
+@media only screen and (min-width: 768px) {
+    .gsc_container_hold {
+        padding:0
+    }
+
+    .gsc_col-sm-1,.gsc_col-sm-10,.gsc_col-sm-11,.gsc_col-sm-12,.gsc_col-sm-2,.gsc_col-sm-3,.gsc_col-sm-4,.gsc_col-sm-5,.gsc_col-sm-6,.gsc_col-sm-7,.gsc_col-sm-8,.gsc_col-sm-9 {
+        float: left
+    }
+
+    .gsc_col-sm-12 {
+        width: 100%
+    }
+
+    .gsc_col-sm-11 {
+        width: 91.66666667%
+    }
+
+    .gsc_col-sm-10 {
+        width: 83.33333333%
+    }
+
+    .gsc_col-sm-9 {
+        width: 75%
+    }
+
+    .gsc_col-sm-8 {
+        width: 66.66666667%
+    }
+
+    .gsc_col-sm-7 {
+        width: 58.33333333%
+    }
+
+    .gsc_col-sm-6 {
+        width: 50%
+    }
+
+    .gsc_col-sm-5 {
+        width: 41.66666667%
+    }
+
+    .gsc_col-sm-4 {
+        width: 33.33333333%
+    }
+
+    .gsc_col-sm-3 {
+        width: 25%
+    }
+
+    .gsc_col-sm-2 {
+        width: 16.66666667%
+    }
+
+    .gsc_col-sm-1 {
+        width: 8.33333333%
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .gsc_col-md-1,.gsc_col-md-10,.gsc_col-md-11,.gsc_col-md-12,.gsc_col-md-2,.gsc_col-md-3,.gsc_col-md-4,.gsc_col-md-5,.gsc_col-md-6,.gsc_col-md-7,.gsc_col-md-8,.gsc_col-md-9 {
+        float:left
+    }
+
+    .gsc_col-md-12 {
+        width: 100%
+    }
+
+    .gsc_col-md-11 {
+        width: 91.66666667%
+    }
+
+    .gsc_col-md-10 {
+        width: 83.33333333%
+    }
+
+    .gsc_col-md-9 {
+        width: 75%
+    }
+
+    .gsc_col-md-8 {
+        width: 66.66666667%
+    }
+
+    .gsc_col-md-7 {
+        width: 58.33333333%
+    }
+
+    .gsc_col-md-6 {
+        width: 50%
+    }
+
+    .gsc_col-md-5 {
+        width: 41.66666667%
+    }
+
+    .gsc_col-md-4 {
+        width: 33.33333333%
+    }
+
+    .gsc_col-md-3 {
+        width: 25%
+    }
+
+    .gsc_col-md-2 {
+        width: 16.66666667%
+    }
+
+    .gsc_col-md-1 {
+        width: 8.33333333%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .gsc_col-lg-1,.gsc_col-lg-10,.gsc_col-lg-11,.gsc_col-lg-12,.gsc_col-lg-2,.gsc_col-lg-3,.gsc_col-lg-4,.gsc_col-lg-5,.gsc_col-lg-6,.gsc_col-lg-7,.gsc_col-lg-8,.gsc_col-lg-9 {
+        float:left
+    }
+
+    .gsc_col-lg-12 {
+        width: 100%
+    }
+
+    .gsc_col-lg-11 {
+        width: 91.66666667%
+    }
+
+    .gsc_col-lg-10 {
+        width: 83.33333333%
+    }
+
+    .gsc_col-lg-9 {
+        width: 75%
+    }
+
+    .gsc_col-lg-8 {
+        width: 66.66666667%
+    }
+
+    .gsc_col-lg-7 {
+        width: 58.33333333%
+    }
+
+    .gsc_col-lg-6 {
+        width: 50%
+    }
+
+    .gsc_col-lg-5 {
+        width: 41.66666667%
+    }
+
+    .gsc_col-lg-4 {
+        width: 33.33333333%
+    }
+
+    .gsc_col-lg-3 {
+        width: 25%
+    }
+
+    .gsc_col-lg-2 {
+        width: 16.66666667%
+    }
+
+    .gsc_col-lg-1 {
+        width: 8.33333333%
+    }
+}
+
+.clearfix:after,.clearfix:before,.gsc_container-fluid:after,.gsc_container-fluid:before,.gsc_container:after,.gsc_container:before,.gsc_row:after,.gsc_row:before {
+    content: " ";
+    display: table
+}
+
+.clearfix:after,.gsc_container-fluid:after,.gsc_container:after,.gsc_row:after {
+    clear: both
+}
+
+@media only screen and (min-width: 768px) {
+    .gsc_container {
+        max-width:98%
+    }
+
+    .gsc_container,.gsc_container-fluid {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .gsc_row {
+        margin-left: -10px;
+        margin-right: -10px
+    }
+
+    .gsc_col-lg-1,.gsc_col-lg-10,.gsc_col-lg-11,.gsc_col-lg-12,.gsc_col-lg-2,.gsc_col-lg-3,.gsc_col-lg-4,.gsc_col-lg-5,.gsc_col-lg-6,.gsc_col-lg-7,.gsc_col-lg-8,.gsc_col-lg-9,.gsc_col-md-1,.gsc_col-md-10,.gsc_col-md-11,.gsc_col-md-12,.gsc_col-md-2,.gsc_col-md-3,.gsc_col-md-4,.gsc_col-md-5,.gsc_col-md-6,.gsc_col-md-7,.gsc_col-md-8,.gsc_col-md-9,.gsc_col-sm-1,.gsc_col-sm-10,.gsc_col-sm-11,.gsc_col-sm-12,.gsc_col-sm-2,.gsc_col-sm-3,.gsc_col-sm-4,.gsc_col-sm-5,.gsc_col-sm-6,.gsc_col-sm-7,.gsc_col-sm-8,.gsc_col-sm-9,.gsc_col-xs-1,.gsc_col-xs-10,.gsc_col-xs-11,.gsc_col-xs-12,.gsc_col-xs-2,.gsc_col-xs-3,.gsc_col-xs-4,.gsc_col-xs-5,.gsc_col-xs-6,.gsc_col-xs-7,.gsc_col-xs-8,.gsc_col-xs-9 {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .gsc_container {
+        max-width:1280px;
+        width: 98%
+    }
+}
+
+[data-type=css-carousel] table {
+    display: block;
+    margin: 0 -20px;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap
+}
+
+[data-type=css-carousel] tbody {
+    align-items: center!important;
+    display: block!important;
+    margin: 0 -20px;
+    overflow-x: scroll!important;
+    overflow-y: hidden!important;
+    padding: 0 0 0 20px;
+    scroll-snap-type: x mandatory
+}
+
+[data-type=css-carousel] tbody tr {
+    scroll-snap-align: center
+}
+
+[data-type=css-carousel].silderHolder {
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    position: relative;
+    white-space: nowrap
+}
+
+.UsedCarListing [data-type=css-carousel] li {
+    height: 200px
+}
+
+.UsedCarListing [data-popup-box=tankupopwrap] [data-type=css-carousel] li,.UsedCarListing [data-type=css-carousel] ul[data-carousel=RecommendedSection] li {
+    height: auto
+}
+
+[data-type=css-carousel] ul.overXvisible {
+    overflow: visible!important
+}
+
+.ScBtn {
+    background: rgba(36,39,44,.3);
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: 37px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 43%;
+    width: 30px;
+    z-index: 99
+}
+
+.ScBtn.next {
+    right: 0
+}
+
+.ScBtn.prev {
+    left: 0
+}
+
+.ScBtn.prev:after {
+    margin: -5px 0 0 -4px;
+    transform: rotate(-315deg)
+}
+
+.ScBtn.next:after,.ScBtn.prev:after {
+    border: 1px solid #fff;
+    border-width: 0 0 2px 2px;
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 10px;
+    left: 50%;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    width: 10px
+}
+
+.ScBtn.next:after {
+    margin: -5px 0 0 -5px;
+    transform: rotate(-135deg)
+}
+
+.actionBtn .ScBtn.next,.actionBtn .ScBtn.prev {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 8px 12px 0 rgba(36,39,44,.15);
+    cursor: pointer;
+    height: 48px;
+    left: -27px;
+    margin-top: -24px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    width: 48px;
+    z-index: 99
+}
+
+.actionBtn .ScBtn.next:after,.actionBtn .ScBtn.prev:after {
+    border: 1px solid rgba(36,39,44,.7);
+    border-width: 0 0 2px 2px;
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 10px;
+    left: 50%;
+    line-height: 0;
+    margin: -4px 0 0 -2px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-315deg);
+    width: 10px
+}
+
+.actionBtn .ScBtn.next.disabled,.actionBtn .ScBtn.prev.disabled {
+    cursor: default;
+    opacity: .4;
+    pointer-events: none
+}
+
+.actionBtn .ScBtn.next {
+    left: auto;
+    right: -27px
+}
+
+.actionBtn .ScBtn.next:after {
+    margin: -4px 0 0 -6px;
+    transform: rotate(-135deg)
+}
+
+.additionalInfo .ScBtn.next,.additionalInfo .ScBtn.prev {
+    background: #fff;
+    border: 1px solid rgba(36,39,44,.5);
+    border-radius: 50%;
+    box-shadow: none;
+    height: 32px;
+    top: 0;
+    width: 32px
+}
+
+.additionalInfo .ScBtn.next:after,.additionalInfo .ScBtn.prev:after {
+    border-color: rgba(36,39,44,.5);
+    height: 9px;
+    margin: -5px 0 0 -3px;
+    width: 9px
+}
+
+.additionalInfo .ScBtn.next:after {
+    margin: -5px 0 0 -6px;
+    transform: rotate(-135deg)
+}
+
+@media screen and (min-width: 1100px) {
+    [data-type=css-carousel] ul {
+        overflow-x:hidden!important
+    }
+
+    [data-type=css-carousel] li {
+        scroll-snap-align: inherit
+    }
+
+    .HomeTopBanner .pager li .bannerAd {
+        background: hsla(0,0%,98%,.7);
+        border-radius: 2px;
+        color: rgba(36,39,44,.5);
+        display: inline-block;
+        font-size: 11px;
+        font-style: normal;
+        height: 15px;
+        margin-right: 5px;
+        text-align: center;
+        width: 18px
+    }
+}
+
+.overviewTop .silderHolder {
+    display: inline-block;
+    height: 252px;
+    overflow: hidden
+}
+
+.sellcarwidget {
+    border: 1px solid rgba(36,39,44,.15);
+    cursor: auto;
+    display: none;
+    padding-bottom: 13px;
+    position: fixed;
+    right: 0;
+    text-align: left;
+    top: -1px;
+    width: 100%;
+    z-index: 99999
+}
+
+.sellcarwidget.active {
+    display: block
+}
+
+.sellcarwidget:before {
+    border: 10px solid rgba(194,225,245,0);
+    border-bottom-color: rgba(36,39,44,.15);
+    margin-left: -7px;
+    right: 29px
+}
+
+.sellcarwidget:after,.sellcarwidget:before {
+    bottom: 100%;
+    content: " ";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 0
+}
+
+.sellcarwidget:after {
+    border: 9px solid rgba(136,183,213,0);
+    border-bottom-color: #fff;
+    margin-left: -6px;
+    right: 30px
+}
+
+.sellcarwidget .loginname {
+    color: #24272c;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 14px
+}
+
+.sellcarwidget .leftcolm {
+    background: rgba(36,39,44,.03);
+    border-radius: 4px;
+    height: 90px;
+    width: 90px
+}
+
+.sellcarwidget .leftcolm [data-autofit] {
+    height: 90px
+}
+
+.sellcarwidget .content {
+    padding: 0 10px 0 0
+}
+
+.sellcarwidget h2 {
+    display: inline-block;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: calc(100% - 29px)
+}
+
+.sellcarwidget .icon-cd-write-a-comment {
+    margin-left: 6px;
+    position: relative;
+    top: -4px
+}
+
+.sellcarwidget .price {
+    font-size: 16px;
+    font-weight: 500
+}
+
+.sellcarwidget .greenStrip {
+    background-color: rgba(1,158,67,.1);
+    border-radius: 4px;
+    color: #019e43;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    padding: 0 13px
+}
+
+.sellcarwidget .greenStrip .icon-cd_my-account {
+    margin-right: 4px;
+    vertical-align: -3px!important
+}
+
+.sellcarwidget .buttonHolder a {
+    display: inline-block!important;
+    font-size: 14px!important;
+    font-weight: 500;
+    height: 40px;
+    line-height: 39px;
+    margin-right: 7px!important;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: top
+}
+
+.sellcarwidget .buttonHolder a:last-child {
+    margin-right: 0!important
+}
+
+.sellcarwidget .secondaryButton {
+    border: 1px solid rgba(36,39,44,.5);
+    color: #24272c!important;
+    width: 178px
+}
+
+.sellcarwidget .button {
+    color: #fff!important;
+    width: 133px
+}
+
+.sellcarwidget .viewmore {
+    clear: both;
+    margin: 0 -20px -14px!important
+}
+
+.sellcarwidget .viewmore .link {
+    color: #2176ae!important;
+    display: block!important;
+    font-size: 14px!important;
+    font-weight: 500;
+    line-height: 1;
+    padding: 16px 24px!important
+}
+
+.sellcarwidget .close {
+    color: #24272c!important;
+    cursor: pointer;
+    font-size: 24px!important;
+    line-height: .6;
+    padding: 6px!important;
+    position: absolute!important;
+    right: 5px;
+    top: 4px
+}
+
+@media screen and (min-width: 768px) {
+    .sellcarwidget {
+        position:absolute;
+        right: 0;
+        top: 40px;
+        width: 370px!important
+    }
+
+    .sellcarwidget .buttonHolder a {
+        margin-right: 12px!important
+    }
+
+    .sellcarwidget .viewmore {
+        margin: 0 -7px -14px!important
+    }
+}
+
+.icon-myAccount:before {
+    color: #24272c;
+    content: "\e9b9"
+}
+
+.icon-new-notifications .path1:before {
+    color: #8498b0;
+    content: "\e9bd"
+}
+
+.icon-new-notifications .path2:before {
+    color: #8498b0;
+    content: "\e9be";
+    margin-left: -1.10546875em
+}
+
+.icon-new-notifications .path3:before {
+    color: #eb7178;
+    content: "\e9bf";
+    margin-left: -1.10546875em
+}
+
+.header .topArea.searchactive .searchArea input {
+    background: #fff;
+    border-radius: 4px 0 0
+}
+
+.header .topArea.searchactive .searchArea .searchbtn {
+    background: #f75d34
+}
+
+.header .topArea .searchArea .gs_ta_results {
+    left: 22px!important;
+    top: 48px!important
+}
+
+.header .topArea .searchArea input:focus {
+    outline: 0
+}
+
+.header .topArea .searchArea .searchbtn {
+    cursor: pointer
+}
+
+.header .topArea .searchArea .searchlist {
+    background: #fff;
+    left: 10px;
+    max-height: 236px;
+    overflow: auto;
+    position: absolute;
+    top: 67px;
+    width: 100%;
+    z-index: 1
+}
+
+.header .topArea .searchArea .searchlist li {
+    border: 1px solid rgba(36,39,44,.1);
+    border-bottom: 0
+}
+
+.header .topArea .searchArea .searchlist li a {
+    color: rgba(36,39,44,.87);
+    display: block;
+    font-weight: 400;
+    line-height: normal;
+    padding: 13px 8px
+}
+
+.header .topArea .searchArea .searchlist li a:hover {
+    color: #f75d34
+}
+
+.header .topArea .searchArea .searchlist li:last-child {
+    border-bottom: 1px solid rgba(36,39,44,.1)
+}
+
+.header .topArea .LangProfile {
+    cursor: pointer
+}
+
+.header .topArea .BellIcon {
+    cursor: pointer;
+    font-size: 20px;
+    line-height: normal;
+    position: relative
+}
+
+.header .topArea .BellIcon span {
+    background: #f75d34;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    font-family: robotoregular,Sans-Serif,Arial;
+    font-size: 10px;
+    font-style: normal;
+    height: 24px;
+    left: 4px;
+    line-height: 20px;
+    min-width: 24px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    top: -12px;
+    z-index: 1
+}
+
+.header .topArea .BellIcon .notiPop {
+    height: 100vh;
+    padding: 19px 10px 21px 24px;
+    position: fixed;
+    right: 0;
+    text-align: left;
+    top: 0;
+    width: 420px;
+    z-index: 10001
+}
+
+.header .topArea .BellIcon .notiPop .link {
+    display: block
+}
+
+.header .topArea .BellIcon .notiPop .overFlowHold {
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0 10px 10px 0;
+    width: 100%
+}
+
+.header .topArea .BellIcon .notiPop ::-webkit-scrollbar {
+    position: absolute;
+    right: 10px;
+    width: 8px
+}
+
+.header .topArea .BellIcon .notiPop ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px
+}
+
+.header .topArea .BellIcon .notiPop ::-webkit-scrollbar-thumb {
+    background: rgba(36,39,44,.3);
+    border-radius: 10px
+}
+
+.header .topArea .BellIcon .notiPop [data-autofit=true] {
+    height: 80px!important
+}
+
+.header .topArea .BellIcon .notiPop .listView {
+    padding: 10px 0 0 16px
+}
+
+.header .topArea .BellIcon .notiPop .listView .title {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.header .topArea .BellIcon .notiPop .listView .dotlist {
+    color: #24272c;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.header .topArea .BellIcon .notiPop .listView .date {
+    color: rgba(36,39,44,.7);
+    font-size: 12px;
+    margin: 5px 0
+}
+
+.header .topArea .shortlist-icon {
+    cursor: pointer
+}
+
+.header .topArea .loginAreaRight .button {
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 9px;
+    width: 142px
+}
+
+.header .topArea .loginAreaRight .button i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 9px;
+    height: 16px;
+    line-height: 14px;
+    margin-right: 5px;
+    vertical-align: 1px;
+    width: 16px
+}
+
+.header .topArea .loginAreaRight .button i:before {
+    color: #fff
+}
+
+.header .topArea .loginAreaRight .shortListIcon {
+    align-items: center;
+    cursor: pointer;
+    display: flex
+}
+
+.header .topArea .loginAreaRight .shortListIcon i {
+    font-size: 17px
+}
+
+.header .topArea .loginAreaRight .shortListIcon i:before {
+    color: #8697af
+}
+
+.header .topArea .loginAreaRight .shortlistCtr {
+    position: relative
+}
+
+.header .topArea .loginAreaRight .shortlistCtr .tooltip {
+    background: #24272c;
+    bottom: -26px;
+    color: #fff;
+    display: none;
+    font-size: 10px;
+    left: -38px;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    width: 96px
+}
+
+.header .topArea .loginAreaRight .shortlistCtr .tooltip:before {
+    border-bottom: 3px solid #24272c;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -3px;
+    position: absolute;
+    top: -3px;
+    width: 0
+}
+
+.header .topArea .loginAreaRight .shortlistCtr:hover .tooltip {
+    display: block
+}
+
+.header .topArea .loginAreaRight .mHeartbtn {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 20px
+}
+
+.header .topArea .loginAreaRight .mHeartbtn .icon-cd-heart_empty:before {
+    color: #8697af;
+    content: "\e954";
+    font-size: 16px
+}
+
+.header .topArea .loginAreaRight .loggedInBtn {
+    background: #e8e1e1;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #24272c;
+    cursor: pointer;
+    display: block;
+    font-family: roboto,Sans-Serif,Arial;
+    font-size: 13px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    width: 27px
+}
+
+.header .topArea .loginAreaRight li .customSelect {
+    display: inline-block
+}
+
+.header .topArea .loginAreaRight li .customSelect select {
+    background: #fff;
+    border: 0;
+    color: rgba(36,39,44,.7);
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 500;
+    height: auto;
+    line-height: 15px;
+    padding: 0 15px;
+    text-decoration: underline
+}
+
+.header .topArea .loginAreaRight li .customSelect:after {
+    border-top-color: rgba(36,39,44,.7);
+    right: 0;
+    top: 5px
+}
+
+.header .topArea .loginAreaRight li .username {
+    cursor: pointer
+}
+
+.header .topArea .loginAreaRight li [data-icon-arrow-bottom=withoutfill] {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid rgba(36,39,44,.5);
+    display: inline-block;
+    height: 0;
+    margin: 3px 3px 0 5px;
+    vertical-align: 2px;
+    width: 0
+}
+
+.header .topArea .loginAreaRight li.loggedInBox:hover .myaccountdropdown {
+    left: auto;
+    opacity: 1;
+    right: 0
+}
+
+.header .topArea .loginAreaRight li.loggedInBox:hover .myaccountdropdown .languagedropdown select {
+    background: #fff;
+    font-size: 12px;
+    height: 25px;
+    padding: 3px
+}
+
+.header .topArea .loginAreaRight li.loggedInBox:hover .myaccountdropdown .customSelect:after {
+    top: 11px
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown {
+    transform: rotateX(0);
+    transition: transform .8s,opacity .4s
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount li {
+    cursor: pointer
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount li span {
+    display: block;
+    float: right;
+    font-weight: 500;
+    padding: 0;
+    top: 0;
+    width: 83px
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount li .login {
+    display: block;
+    float: left;
+    padding: 0;
+    text-align: left;
+    width: 100%
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .last {
+    border: 0
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .last:hover {
+    color: #f75d34
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .switchbnt {
+    margin: 1px 0 0 8px;
+    width: 75px
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .switch_input {
+    margin-left: 15px;
+    position: absolute;
+    visibility: hidden
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .switch_input:checked+.switch_label:before {
+    background: #f75d34
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .switch_input:checked+.switch_label:after {
+    transform: translate(-8px,-5px)
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .switch_label {
+    border-radius: 60px;
+    cursor: pointer;
+    display: block;
+    height: 12px;
+    padding: 0;
+    position: relative;
+    width: 27px
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .switch_label:before {
+    background-color: #8c8c8c;
+    border-radius: 60px;
+    bottom: 1px;
+    content: "";
+    display: block;
+    left: 1px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    transition: background .9s ease-out 0s
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount .switch_label:after {
+    background-color: #fff;
+    border-radius: 100%;
+    bottom: 1px;
+    box-shadow: 0 0 3px rgba(0,0,0,.22);
+    content: "";
+    display: block;
+    height: 18px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    transform: translate(15px,-5px);
+    transition: transform .4s ease-out 0s;
+    width: 18px
+}
+
+.header .topArea .loginAreaRight .NotificationPopUP li {
+    margin-left: 0
+}
+
+.header .topArea .LanguageDropDown {
+    background: #fff;
+    border-radius: 8px;
+    bottom: auto;
+    box-shadow: 2px 4px 12px hsla(0,0%,45%,.25);
+    left: auto;
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 20px;
+    width: 120px;
+    z-index: 99999
+}
+
+.header .topArea .LanguageDropDown .ArrowTop {
+    display: none
+}
+
+.header .topArea .LanguageDropDown li {
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    margin: 0;
+    padding: 0
+}
+
+.header .topArea .LanguageDropDown li a {
+    color: #24272c;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 8px 0
+}
+
+.header .topArea .LanguageDropDown li:last-child {
+    border: 0
+}
+
+.header .bottomArea nav li:hover {
+    cursor: pointer;
+    padding: 0
+}
+
+.header .bottomArea nav li:hover a:after {
+    opacity: 1
+}
+
+.header .bottomArea nav li.current a,.header .bottomArea nav li.current span {
+    border-top: 3px solid #f75d34
+}
+
+.header .bottomArea nav li.current a span,.header .bottomArea nav li.current span span {
+    border: none
+}
+
+.header .bottomArea nav li.tag {
+    line-height: inherit
+}
+
+.header .bottomArea nav li.tag>a {
+    background: #f2f3f7;
+    border: none;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    height: auto;
+    line-height: 24px;
+    margin-left: -7px;
+    padding: 0 10px;
+    position: relative;
+    text-transform: none;
+    top: -2px
+}
+
+.header .bottomArea nav li.tag>a:hover {
+    border: none
+}
+
+.header .bottomArea nav li.tag>a:after {
+    content: inherit
+}
+
+.header .bottomArea nav li>a:hover,.header .bottomArea nav li>span:hover {
+    border-top: 3px solid #f75d34
+}
+
+.header .bottomArea nav li>a .badge_new,.header .bottomArea nav li>span .badge_new {
+    background: #f75d34;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    height: auto;
+    line-height: 1;
+    padding: 2px 6px;
+    position: absolute;
+    right: 33px;
+    top: 5px
+}
+
+.header .bottomArea nav li .subMenu {
+    transition: transform .8s,opacity .4s
+}
+
+.header .bottomArea nav li .subMenu li.new.free span.innerSpan:after {
+    content: "Free"
+}
+
+.header .bottomArea nav li .subMenu li .sponsoredmenu {
+    position: absolute;
+    right: 49px;
+    top: 13px
+}
+
+.header .bottomArea nav li .subMenu li .sponsoredmenu p {
+    background: rgba(0,0,0,.25);
+    border-radius: 2px;
+    color: #fff;
+    font-size: 9px;
+    line-height: 12px;
+    padding: 0 4px;
+    position: absolute
+}
+
+.header .bottomArea nav li .subMenu li.current a,.header .bottomArea nav li .subMenu li.current span {
+    color: #2176ae
+}
+
+.header .bottomArea nav li .subMenu li .icon-carDekhoLogo,.header .bottomArea nav li .subMenu li .icon-gaadi-logo,.header .bottomArea nav li .subMenu li .icon-insurancelogo {
+    font-size: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: -4px;
+    width: 18px
+}
+
+.header .bottomArea nav li .subMenu li .crackEd {
+    display: inline-block
+}
+
+.header .bottomArea nav li .subMenu li div.buttonHolder {
+    padding: 0
+}
+
+.header .bottomArea nav li .subMenu li div.buttonHolder span {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%
+}
+
+.header .bottomArea nav li .subMenu li a,.header .bottomArea nav li .subMenu li div,.header .bottomArea nav li .subMenu li span {
+    border-top: none;
+    color: #24272c;
+    font-size: 14px;
+    font-weight: 400;
+    height: 38px;
+    line-height: 19px;
+    padding: 10px 20px;
+    text-transform: none;
+    top: 0
+}
+
+.header .bottomArea nav li .subMenu li a:hover,.header .bottomArea nav li .subMenu li div:hover,.header .bottomArea nav li .subMenu li span:hover {
+    border-top: none
+}
+
+.header .bottomArea nav li .subMenu li a:after,.header .bottomArea nav li .subMenu li div:after,.header .bottomArea nav li .subMenu li span:after {
+    opacity: 0
+}
+
+.header .bottomArea nav li .subMenu li a i,.header .bottomArea nav li .subMenu li div i,.header .bottomArea nav li .subMenu li span i {
+    border: 1px solid rgba(36,39,44,.5);
+    border-width: 0 0 1px 1px;
+    display: inline-block;
+    font-size: 0;
+    height: 7px;
+    line-height: 0;
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    transform: rotate(-135deg);
+    width: 7px
+}
+
+.header .bottomArea nav li .subMenu li a span,.header .bottomArea nav li .subMenu li div span,.header .bottomArea nav li .subMenu li span span {
+    padding: 0
+}
+
+.header .bottomArea nav li .subMenu li a span.premierL,.header .bottomArea nav li .subMenu li div span.premierL,.header .bottomArea nav li .subMenu li span span.premierL {
+    background: url(https://stimg.cardekho.com/pwa/img/apl/apl_icon_white.svg) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 25px;
+    margin-left: 5px;
+    vertical-align: middle;
+    width: 25px
+}
+
+.header .bottomArea nav li .subMenu li mark {
+    background: #ff1e3c;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 5px;
+    padding: 2px 6px;
+    vertical-align: 2px
+}
+
+.header .bottomArea nav li .subMenu li:hover {
+    background: #f0f1f2
+}
+
+.header .bottomArea nav li .subMenu li:hover .subMenuDeep {
+    opacity: 1;
+    visibility: visible
+}
+
+.header .bottomArea nav li .subMenu li .subMenuDeep li.new span.innerSpan:after {
+    display: inline-block
+}
+
+.header .bottomArea nav li .subMenu li .subMenuDeep li.current a,.header .bottomArea nav li .subMenu li .subMenuDeep li.current span {
+    color: #2176ae!important
+}
+
+.header .bottomArea nav li:hover .subMenu {
+    left: -1px;
+    opacity: 1;
+    transform: rotateX(0);
+    z-index: 1000
+}
+
+.header .bottomArea .linkArea a,.header .bottomArea .linkArea>div,.header .bottomArea .linkArea>span {
+    color: rgba(36,39,44,.7);
+    display: inline-block;
+    font-size: 14px;
+    max-width: 130px;
+    overflow: hidden;
+    padding-left: 5px;
+    position: relative;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+    z-index: 1
+}
+
+.header .bottomArea .linkArea a:hover,.header .bottomArea .linkArea>div:hover,.header .bottomArea .linkArea>span:hover {
+    color: rgba(36,39,44,.7);
+    cursor: pointer
+}
+
+.header .bottomArea .linkArea a:hover .myaccountdropdown,.header .bottomArea .linkArea>div:hover .myaccountdropdown,.header .bottomArea .linkArea>span:hover .myaccountdropdown {
+    left: -64px;
+    opacity: 1
+}
+
+.header .bottomArea .linkArea a:hover .myaccountdropdown .languagedropdown select,.header .bottomArea .linkArea>div:hover .myaccountdropdown .languagedropdown select,.header .bottomArea .linkArea>span:hover .myaccountdropdown .languagedropdown select {
+    font-size: 12px;
+    height: 25px;
+    padding: 3px
+}
+
+.header .bottomArea .linkArea a:hover .myaccountdropdown .customSelect:after,.header .bottomArea .linkArea>div:hover .myaccountdropdown .customSelect:after,.header .bottomArea .linkArea>span:hover .myaccountdropdown .customSelect:after {
+    top: 11px
+}
+
+.header .bottomArea .linkArea a i,.header .bottomArea .linkArea>div i,.header .bottomArea .linkArea>span i {
+    margin-right: 5px;
+    vertical-align: -1px
+}
+
+.header .bottomArea .linkArea a .appIcon,.header .bottomArea .linkArea>div .appIcon,.header .bottomArea .linkArea>span .appIcon {
+    color: rgba(36,39,44,.5);
+    font-size: 18px;
+    margin: 0 3px 0 0;
+    vertical-align: -3px
+}
+
+.header .bottomArea .linkArea a .userIcon,.header .bottomArea .linkArea>div .userIcon,.header .bottomArea .linkArea>span .userIcon {
+    color: rgba(36,39,44,.5);
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 5px 0 0;
+    vertical-align: -3px
+}
+
+.header .bottomArea .linkArea a:last-child,.header .bottomArea .linkArea>div:last-child,.header .bottomArea .linkArea>span:last-child {
+    padding: 10px 0 10px 54px
+}
+
+.header.removeSticky {
+    position: relative
+}
+
+.header nav.subMenuHide li:hover .subMenu {
+    border-top: 0;
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    left: -9999px;
+    opacity: 0;
+    top: 67px;
+    transform: rotateX(-92deg);
+    transform-origin: 0 0;
+    transition: transform .8s,opacity .4s;
+    z-index: 1000
+}
+
+footer {
+    background: #fff
+}
+
+footer,footer .footer_Nav {
+    border-top: 1px solid rgba(0,0,0,.12)
+}
+
+footer .footer_Nav .appholder {
+    margin: 10px -10px 20px
+}
+
+footer .footer_Nav .appholder li {
+    display: inline-block;
+    float: none;
+    max-width: 139px
+}
+
+footer .footer_Nav .appholder img {
+    height: 42px;
+    width: 130px
+}
+
+footer .footer_Trafic {
+    padding-bottom: 42px;
+    padding-top: 42px
+}
+
+footer .footer_Trafic .trafic_col,footer .footer_Trafic span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+footer .footer_Trafic .icon-compare-car,footer .footer_Trafic .icon-india-no,footer .footer_Trafic .icon-offers {
+    color: #24272c;
+    font-size: 44px
+}
+
+footer .footer_Trafic .icon-car-sold {
+    color: #24272c;
+    font-size: 57px;
+    line-height: 45px
+}
+
+footer .footer_Trafic .icon-compare-car {
+    color: #24272c;
+    font-size: 40px
+}
+
+footer .footer_Trafic .trafic_col {
+    padding-left: 11px
+}
+
+footer .footer_Trafic .trafic_col .title {
+    color: #24272c;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 0
+}
+
+footer .footer_Trafic .trafic_col p {
+    color: rgba(36,39,44,.5);
+    font-size: 15px;
+    line-height: 22px
+}
+
+footer nav {
+    padding: 46px 0 10px;
+    text-align: left
+}
+
+footer nav .title {
+    color: #24272c;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 7px 0 9px;
+    text-transform: uppercase
+}
+
+footer nav .subText {
+    color: rgba(36,39,44,.7);
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: -7px 0 16px
+}
+
+footer nav .subText .divider {
+    padding: 0 10px
+}
+
+footer nav li {
+    line-height: 2.3
+}
+
+footer nav li a,footer nav li span {
+    color: rgba(36,39,44,.5);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    text-align: left;
+    transition: box-shadow .3s ease-in
+}
+
+footer nav li.hoverremove span {
+    cursor: auto
+}
+
+footer .footerbottom {
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0,.12);
+    height: 67px;
+    padding-top: 13px
+}
+
+footer .footerbottom .copyRight {
+    color: rgba(36,39,44,.5);
+    font-size: 12px;
+    margin-top: 9px
+}
+
+.gs_ta_results {
+    border-radius: 0 0 4px 4px
+}
+
+@media screen and (min-width: 767px) {
+    .header {
+        z-index:2600
+    }
+
+    .header .bottomArea nav li.current .subMenu>li:first-child a,.header .bottomArea nav li.current .subMenu>li:first-child span {
+        color: #2176ae
+    }
+
+    .header .topArea .searchArea form {
+        width: 100%
+    }
+
+    .connectoW100.user-reviews-winner [id^=connecto_],.connectoW100.user-reviews-winner [id^=container-notification-frame-] {
+        height: 250px!important
+    }
+
+    .connectoW100.user-reviews-winnerLanding [id^=container-notification-frame-] {
+        height: 280px!important
+    }
+
+    .modelOverviewTop .overviewdetail .buttonHolderOuter.usedButtonBox {
+        margin-top: 10px!important;
+        width: 194px!important
+    }
+}
+
+@media screen and (min-width: 1005px) {
+    .header .topArea .searchArea form {
+        width:100%
+    }
+
+    .header .topArea .loginBtn li {
+        margin-right: 28px
+    }
+
+    .header .bottomArea nav li,.header .bottomArea nav li:hover {
+        padding: 0 13px 0 0
+    }
+
+    .header .bottomArea nav li .subMenu li {
+        padding: 0
+    }
+
+    .header .bottomArea nav li>a,.header .bottomArea nav li>span {
+        font-size: 14px;
+        padding: 0
+    }
+
+    .header .topArea.logo {
+        margin-top: 22px
+    }
+
+    .searchArea input {
+        padding: 0 10px 0 37px
+    }
+
+    .header .bottomArea nav li .subMenu {
+        width: 240px
+    }
+
+    .header .bottomArea nav li .subMenu li a,.header .bottomArea nav li .subMenu li span {
+        font-size: 13px
+    }
+
+    .header .bottomArea nav li .subMenu li .subMenuDeep {
+        left: 237px;
+        width: 195px
+    }
+}
+
+@media screen and (min-width: 1174px) {
+    .header .bottomArea nav ul {
+        margin-left:0
+    }
+
+    .header .bottomArea nav li,.header .bottomArea nav li:hover {
+        padding: 0 31px 0 0
+    }
+
+    .header .topArea .loginBtn li:hover .myaccountdropdown {
+        left: -60px;
+        right: auto
+    }
+}
+
+.desktop .mobiFooter,.desktop .mobiHeader {
+    display: none
+}
+
+.footer .innternal_Domain ul {
+    margin: 0 auto;
+    max-width: 300px
+}
+
+.footer .innternal_Domain li {
+    padding: 0 30px
+}
+
+.footer .innternal_Domain li:nth-child(odd) {
+    padding-left: 0
+}
+
+.footer .innternal_Domain li:nth-child(2n) {
+    padding-right: 0
+}
+
+.footer .innternal_Domain a {
+    display: block
+}
+
+.footer .innternal_Domain a img {
+    height: 50px;
+    margin: 0
+}
+
+.footer .SocialIcons {
+    margin-top: 9px;
+    text-align: right
+}
+
+.footer .SocialIcons .title {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 0 41px 0 0
+}
+
+.footer .SocialIcons ul {
+    display: inline-block
+}
+
+.footer .SocialIcons li {
+    display: inline-block;
+    padding-right: 30px
+}
+
+.footer .SocialIcons li:last-child {
+    padding-right: 0
+}
+
+.footer .SocialIcons li [class^=icon-] {
+    font-size: 16px
+}
+
+.footer .SocialIcons li [class^=icon-]:before {
+    color: #24272c
+}
+
+.footer .SocialIcons li [class^=icon-].icon-cd-fb-icon {
+    height: 16px;
+    width: 8.75px
+}
+
+.footer .SocialIcons li [class^=icon-].icon-cd_twitter {
+    height: 16px;
+    width: 16px
+}
+
+.footer .SocialIcons li [class^=icon-].icon-youtube {
+    font-size: 22px;
+    height: 22px;
+    position: relative;
+    top: 3px;
+    width: 22px
+}
+
+.footer .SocialIcons li [class^=icon-].icon-instagram,.footer .SocialIcons li [class^=icon-].icon-linkedin {
+    font-size: 18px;
+    height: 18px;
+    width: 18px
+}
+
+.connectoW100 [id^=connecto_],.connectoW100 [id^=container-notification-frame-] {
+    width: 100%!important
+}
+
+.hideAdTag>p {
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px
+}
+
+.modelNavInner li .loannavtab .faqSmall,.modelNavInner li a .faqSmall,.modelNavInner li span .faqSmall {
+    padding: 0;
+    text-transform: none
+}
+
+.modelOverviewTop .overviewdetail>.price.displayB {
+    display: block
+}
+
+.modelOverviewTop .overviewdetail .buttonHolderOuter.usedButtonBox {
+    margin-top: 10px!important;
+    width: 100%!important
+}
+
+.overviewdetail .smallButton {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px
+}
+
+.campaignBg,.campaignSkinningBg {
+    background: #131313
+}
+
+.campaignBg .adHolderTop,.campaignBg .whiteBG,.campaignSkinningBg .adHolderTop,.campaignSkinningBg .whiteBG {
+    background: 0 0
+}
+
+.campaignBg .breadcrumb,.campaignBg .breadcrumb a,.campaignSkinningBg .breadcrumb,.campaignSkinningBg .breadcrumb a {
+    color: #fff
+}
+
+.campaignBg .breadcrumb a:after,.campaignSkinningBg .breadcrumb a:after {
+    border-color: #fff
+}
+
+.campaignBg .estimatedPrice,.campaignSkinningBg .estimatedPrice {
+    color: hsla(0,0%,100%,.5)
+}
+
+.campaignBg .adHolderTop p,.campaignSkinningBg .adHolderTop p {
+    color: #fff
+}
+
+@media screen and (max-width: 767px) {
+    .campaignBg .shadow16,.campaignBg .shadow24,.campaignSkinningBg .shadow16,.campaignSkinningBg .shadow24 {
+        background:0 0;
+        box-shadow: none
+    }
+
+    .campaignBg .shadow16 h2,.campaignBg .shadow24 h2,.campaignSkinningBg .shadow16 h2,.campaignSkinningBg .shadow24 h2 {
+        color: #fff
+    }
+
+    .campaignBg .popularbrands .BottomLinkViewAll,.campaignSkinningBg .popularbrands .BottomLinkViewAll {
+        margin-top: 0
+    }
+
+    .campaignBg .newswidget[data-track-component=HomeNewsTab],.campaignSkinningBg .newswidget[data-track-component=HomeNewsTab] {
+        margin-bottom: 0
+    }
+
+    .campaignBg .BottomLinkViewAll,.campaignSkinningBg .BottomLinkViewAll {
+        border-bottom: 1px solid hsla(0,0%,100%,.15);
+        border-top: 1px solid hsla(0,0%,100%,.15)
+    }
+
+    .campaignBg .BottomLinkViewAll .link,.campaignSkinningBg .BottomLinkViewAll .link {
+        color: #fff
+    }
+
+    .campaignBg .userReview .BottomLinkViewAll,.campaignSkinningBg .userReview .BottomLinkViewAll {
+        border-top: 1px solid rgba(36,39,44,.15)
+    }
+
+    .campaignBg .userReview .BottomLinkViewAll .link,.campaignSkinningBg .userReview .BottomLinkViewAll .link {
+        color: #15a8c2
+    }
+
+    .campaignBg .overviewQna .modelSpecsMain.recentlyQ.new .BottomLinkViewAll .link:after,.campaignSkinningBg .overviewQna .modelSpecsMain.recentlyQ.new .BottomLinkViewAll .link:after {
+        border-color: #fff
+    }
+
+    .campaignBg .viewmore,.campaignSkinningBg .viewmore {
+        border-bottom: 1px solid hsla(0,0%,100%,.15);
+        border-top: 1px solid hsla(0,0%,100%,.15)
+    }
+
+    .campaignBg .viewmore .link,.campaignSkinningBg .viewmore .link {
+        color: #fff
+    }
+
+    .campaignBg .viewmore .link:after,.campaignSkinningBg .viewmore .link:after {
+        border-color: #fff
+    }
+
+    .campaignBg .cityBoxOuter .text,.campaignSkinningBg .cityBoxOuter .text {
+        color: #989b9e
+    }
+
+    .campaignBg .carFAQreview.shadow24,.campaignBg [data-track-component=quickoverview].shadow24,.campaignSkinningBg .carFAQreview.shadow24,.campaignSkinningBg [data-track-component=quickoverview].shadow24 {
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(36,39,44,.15)
+    }
+
+    .campaignBg .carFAQreview.shadow24 h2,.campaignBg [data-track-component=quickoverview].shadow24 h2,.campaignSkinningBg .carFAQreview.shadow24 h2,.campaignSkinningBg [data-track-component=quickoverview].shadow24 h2 {
+        color: #000
+    }
+
+    .campaignBg .carFAQreview .BottomLinkViewAll,.campaignBg [data-track-component=quickoverview] .BottomLinkViewAll,.campaignSkinningBg .carFAQreview .BottomLinkViewAll,.campaignSkinningBg [data-track-component=quickoverview] .BottomLinkViewAll {
+        border-top: 1px solid rgba(36,39,44,.15)
+    }
+
+    .campaignBg .carFAQreview .BottomLinkViewAll .link,.campaignBg [data-track-component=quickoverview] .BottomLinkViewAll .link,.campaignSkinningBg .carFAQreview .BottomLinkViewAll .link,.campaignSkinningBg [data-track-component=quickoverview] .BottomLinkViewAll .link {
+        color: #15a8c2
+    }
+
+    .campaignBg .homepage .popularbrands .listMain .listing a,.campaignBg .overviewQna .modelSpecsMain.recentlyQ.new li .border,.campaignSkinningBg .homepage .popularbrands .listMain .listing a,.campaignSkinningBg .overviewQna .modelSpecsMain.recentlyQ.new li .border {
+        background: #fff
+    }
+
+    .campaignBg .breadcrumb a:after,.campaignSkinningBg .breadcrumb a:after {
+        border-color: hsla(210,3%,61%,.42)
+    }
+
+    .campaignBg .gsc-ta-clickWrap li,.campaignSkinningBg .gsc-ta-clickWrap li {
+        color: #fff
+    }
+
+    .campaignBg .adHolderTop,.campaignBg .gsc-ta-clickWrap li,.campaignBg .shadow24,.campaignSkinningBg .adHolderTop,.campaignSkinningBg .gsc-ta-clickWrap li,.campaignSkinningBg .shadow24 {
+        background: 0 0
+    }
+
+    .campaignBg .ExpertReviewOverview p,.campaignBg .QnAEntryPoint p,.campaignBg .breadcrumb a,.campaignBg .carSummary p,.campaignSkinningBg .ExpertReviewOverview p,.campaignSkinningBg .QnAEntryPoint p,.campaignSkinningBg .breadcrumb a,.campaignSkinningBg .carSummary p {
+        color: #989b9e
+    }
+
+    .campaignBg .colorSlider .mobileCarousel li,.campaignSkinningBg .colorSlider .mobileCarousel li {
+        background: #fff;
+        padding-bottom: 10px
+    }
+
+    .campaignBg .estimatedPrice,.campaignBg .mileageSection .byCardekho,.campaignSkinningBg .estimatedPrice,.campaignSkinningBg .mileageSection .byCardekho {
+        color: hsla(0,0%,100%,.5)
+    }
+
+    .campaignBg .homeNewsPosted .topHeading span,.campaignSkinningBg .homeNewsPosted .topHeading span {
+        color: #fff
+    }
+
+    .campaignBg .homeNewsPosted .topHeading,.campaignSkinningBg .homeNewsPosted .topHeading {
+        color: #a09d9d
+    }
+
+    .campaignBg .homeNewsPosted .postCard .postCardContant h2,.campaignSkinningBg .homeNewsPosted .postCard .postCardContant h2 {
+        color: #24272c
+    }
+
+    .campaignBg .homeNewsPosted .postCard .postCardContant,.campaignSkinningBg .homeNewsPosted .postCard .postCardContant {
+        background: #fff
+    }
+
+    .campaignBg .homeNewsPosted .social li span,.campaignBg .homeNewsPosted .social li span i,.campaignBg .homeNewsPosted .social li span i.icon-reply,.campaignBg .homeNewsPosted .social li>div,.campaignBg .homeNewsPosted .social li>div i,.campaignBg .homeNewsPosted .social li>div i.icon-reply,.campaignBg .modelVideoMain .videoList .viewsHolder span,.campaignSkinningBg .homeNewsPosted .social li span,.campaignSkinningBg .homeNewsPosted .social li span i,.campaignSkinningBg .homeNewsPosted .social li span i.icon-reply,.campaignSkinningBg .homeNewsPosted .social li>div,.campaignSkinningBg .homeNewsPosted .social li>div i,.campaignSkinningBg .homeNewsPosted .social li>div i.icon-reply,.campaignSkinningBg .modelVideoMain .videoList .viewsHolder span {
+        color: hsla(0,0%,100%,.5)
+    }
+
+    .campaignBg .homeNewsPosted .exploreMoreCarousel .gsc_main>li,.campaignSkinningBg .homeNewsPosted .exploreMoreCarousel .gsc_main>li {
+        background: #fff
+    }
+
+    .campaignBg .homeNewsPosted .exploreMoreCarousel h3,.campaignSkinningBg .homeNewsPosted .exploreMoreCarousel h3 {
+        color: #fff
+    }
+
+    .campaignBg .homeNewsPosted .postCard .reviewCarousel .otherReview li .readReviewBox,.campaignSkinningBg .homeNewsPosted .postCard .reviewCarousel .otherReview li .readReviewBox {
+        background: #fff
+    }
+
+    .campaignBg .homepage .modelVideoMain .videoList h1,.campaignBg .modelVideoMain .videoList.shadowWPadding h2,.campaignSkinningBg .homepage .modelVideoMain .videoList h1,.campaignSkinningBg .modelVideoMain .videoList.shadowWPadding h2 {
+        color: #000
+    }
+
+    .campaignBg .homeNewsPosted .postCard .modelVideoMain .videoLists .videoholderbox h2,.campaignSkinningBg .homeNewsPosted .postCard .modelVideoMain .videoLists .videoholderbox h2 {
+        color: #24272c
+    }
+
+    .campaignBg .homeNewsPosted .postCard .modelVideoMain .videoLists,.campaignSkinningBg .homeNewsPosted .postCard .modelVideoMain .videoLists {
+        background: #fff
+    }
+
+    .campaignBg .shadow24.ownCar,.campaignSkinningBg .shadow24.ownCar {
+        background: #fff url(https://stimg.cardekho.com/pwa/img/pwa/garage/garage-car.svg) no-repeat right 30px top 27px/105px
+    }
+
+    .campaignBg .variantTable .BottomLinkViewAll .link,.campaignSkinningBg .variantTable .BottomLinkViewAll .link {
+        color: #15a8c2
+    }
+
+    .campaignBg .NextStep .mileageBox,.campaignSkinningBg .NextStep .mileageBox {
+        background: #fff
+    }
+
+    .campaignBg .RightSideSpaceHolder.shadow16 h2,.campaignSkinningBg .RightSideSpaceHolder.shadow16 h2 {
+        color: #fff
+    }
+
+    .campaignBg .shadow16,.campaignBg .shadow24,.campaignBg .shadowWPadding,.campaignSkinningBg .shadow16,.campaignSkinningBg .shadow24,.campaignSkinningBg .shadowWPadding {
+        border-radius: 0
+    }
+
+    .campaignBg .UserComments .faqthanks,.campaignBg .priceOtherCityTable,.campaignBg [data-track-component=sidebaremi],.campaignSkinningBg .UserComments .faqthanks,.campaignSkinningBg .priceOtherCityTable,.campaignSkinningBg [data-track-component=sidebaremi] {
+        background: #fff
+    }
+
+    .campaignBg #customBtn,.campaignBg .ExpertReviewOverview.modelSpecsMain .gsco_header,.campaignBg .breadcrumb,.campaignBg .carSummary p a,.campaignBg .modelSpecsMain .gsco_header span,.campaignSkinningBg #customBtn,.campaignSkinningBg .ExpertReviewOverview.modelSpecsMain .gsco_header,.campaignSkinningBg .breadcrumb,.campaignSkinningBg .carSummary p a,.campaignSkinningBg .modelSpecsMain .gsco_header span {
+        color: #fff
+    }
+
+    .campaignBg .gaadiStore.hometab,.campaignSkinningBg .gaadiStore.hometab {
+        background: 0 0
+    }
+
+    .campaignBg .ViewAllRedArrowBox.shadow24,.campaignSkinningBg .ViewAllRedArrowBox.shadow24 {
+        background: #fff
+    }
+
+    .campaignBg .comparisonbox [data-mmv=search] .gsc-ta-clickWrap li,.campaignSkinningBg .comparisonbox [data-mmv=search] .gsc-ta-clickWrap li {
+        color: #24272c
+    }
+
+    .campaignBg .comparisonbox [data-mmv=search] .gsc-ta-clickWrap .gsc-ta-active,.campaignSkinningBg .comparisonbox [data-mmv=search] .gsc-ta-clickWrap .gsc-ta-active {
+        color: #f75d34
+    }
+
+    .campaignBg [data-track-component=newcar],.campaignBg [data-track-component=usedcar],.campaignSkinningBg [data-track-component=newcar],.campaignSkinningBg [data-track-component=usedcar] {
+        background: #fff;
+        padding: 10px 0
+    }
+
+    .campaignBg .thanksforqa p,.campaignSkinningBg .thanksforqa p {
+        color: #d7e5f0
+    }
+
+    .campaignBg .thanksforqa .link,.campaignSkinningBg .thanksforqa .link {
+        color: #fff;
+        padding: 0
+    }
+
+    .campaignBg [data-gallery=new] .Topheader .gsc-ta-clickWrap li,.campaignSkinningBg [data-gallery=new] .Topheader .gsc-ta-clickWrap li {
+        color: #000
+    }
+
+    .campaignBg [data-gallery=new] .Topheader .gsc-ta-clickWrap .gsc-ta-active,.campaignSkinningBg [data-gallery=new] .Topheader .gsc-ta-clickWrap .gsc-ta-active {
+        color: #f75d34
+    }
+
+    .campaignBg .customGPlusSignIn .buttonText,.campaignSkinningBg .customGPlusSignIn .buttonText {
+        color: #24272c
+    }
+
+    .campaignBg .gaadiStore.hometab .gsbox h2,.campaignSkinningBg .gaadiStore.hometab .gsbox h2 {
+        color: #000;
+        font-size: 24px
+    }
+
+    .campaignBg .faqTabbin .toggleAccordion,.campaignBg .videoGrid.shadow24,.campaignSkinningBg .faqTabbin .toggleAccordion,.campaignSkinningBg .videoGrid.shadow24 {
+        background: #fff
+    }
+
+    .campaignBg .ExpertReviewOverview p a,.campaignBg .priceOtherCityTable td,.campaignBg .table-responsive td,.campaignSkinningBg .ExpertReviewOverview p a,.campaignSkinningBg .priceOtherCityTable td,.campaignSkinningBg .table-responsive td,.priceOtherCityTable td a {
+        color: #fff
+    }
+
+    .campaignSkinningBg .priceOtherCityTable thead th {
+        background: 0 0;
+        color: #fff
+    }
+
+    .campaignSkinningBg .GallerySection p,.campaignSkinningBg .priceOtherCityTable .cityNot,.campaignSkinningBg .videoGrid .videoTopPara {
+        color: #fff
+    }
+
+    .campaignSkinningBg [data-track-component=sidebaremi] {
+        background: #fff
+    }
+}
+
+#doodleAdWpr,#sponsoredHeaderAd {
+    display: none
+}
+
+#doodleAdWpr.show,#sponsoredHeaderAd.show {
+    display: block
+}
+
+.SellCarBestPrice {
+    background-color: #fff;
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,0) 23%,#f1f1f1 58%);
+    box-shadow: 0 1px 3px 0 rgba(36,39,44,.15);
+    height: auto;
+    padding: 20px 20px 12px
+}
+
+.SellCarBestPrice .widgetBackgroundImage {
+    padding-right: 99px;
+    position: unset
+}
+
+.SellCarBestPrice h3 {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500
+}
+
+.SellCarBestPrice p {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.67
+}
+
+.SellCarBestPrice .PointerImg {
+    bottom: -1px;
+    height: 162px;
+    position: absolute;
+    right: 0;
+    width: 128px
+}
+
+.SellCarBestPrice .PointerImg img {
+    width: auto
+}
+
+.SellCarBestPrice .covidSafetyText {
+    background: #fff;
+    border-radius: 11.5px;
+    color: #24272c;
+    display: inline-block;
+    font-size: 10px;
+    height: 23px;
+    line-height: 24px;
+    margin: 6px 0 12px;
+    padding: 0 9px
+}
+
+.SellCarBestPrice .covidSafetyText img {
+    display: inline-block;
+    margin-right: 1px;
+    position: relative;
+    top: .5px;
+    vertical-align: -2px;
+    width: 12px
+}
+
+.SellCarBestPrice .offerCTA .OrButton {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    width: 177px
+}
+
+.SellCarBestPrice .offerCTA .OrButton:after {
+    border: 2px solid #fff;
+    border-left: none;
+    border-radius: 1px;
+    border-top: none;
+    content: "";
+    display: inline-block;
+    height: 7px;
+    margin: 0 0 0 8px;
+    position: relative;
+    top: -2px;
+    transform: rotate(45deg);
+    width: 7px
+}
+
+.SellCarBestPrice .offerCTA .link {
+    color: rgba(36,39,44,.87);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 14px;
+    padding: 0;
+    text-decoration: underline;
+    width: 100%
+}
+
+@media screen and (min-width: 768px) and (max-width:1180px) {
+    .SellCarBestPrice .PointerImg {
+        margin-left:75px
+    }
+
+    .SellCarBestPrice .offerDetails {
+        padding-left: 58px
+    }
+
+    .SellCarBestPrice .offerCTA {
+        padding-left: 25px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .SellCarBestPrice {
+        background-image:radial-gradient(circle at 37% 54%,#f0f0f0,#f1f1f1 58%);
+        border-radius: 8px;
+        height: 200px;
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .SellCarBestPrice .widgetBackgroundImage {
+        padding-right: 0
+    }
+
+    .SellCarBestPrice .PointerImg {
+        bottom: -17px;
+        float: left;
+        height: 163px;
+        margin-left: 135px;
+        position: relative;
+        right: auto;
+        width: auto
+    }
+
+    .SellCarBestPrice .PointerImg img {
+        height: 100%;
+        transform: rotateY(180deg)
+    }
+
+    .SellCarBestPrice .offerDetails {
+        float: left;
+        padding-left: 88px;
+        padding-top: 30px;
+        width: 470px
+    }
+
+    .SellCarBestPrice .offerDetails h3 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1
+    }
+
+    .SellCarBestPrice .offerDetails p {
+        color: rgba(0,0,0,.87);
+        font-size: 14px;
+        line-height: 1.67;
+        margin-top: 6px
+    }
+
+    .SellCarBestPrice .offerCTA {
+        float: left;
+        padding-left: 105px;
+        padding-top: 55px;
+        width: 350px
+    }
+
+    .SellCarBestPrice .offerCTA .OrButton {
+        display: block;
+        height: 48px;
+        line-height: 48px;
+        margin: 0;
+        text-align: center;
+        width: 233px
+    }
+
+    .SellCarBestPrice .offerCTA .link {
+        clear: both;
+        display: block;
+        margin: 0!important;
+        padding-top: 26px;
+        text-align: center;
+        width: auto
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1180px) {
+    .SellCarBestPrice .PointerImg {
+        margin-left:0
+    }
+
+    .SellCarBestPrice .offerDetails {
+        padding-top: 20px
+    }
+
+    .SellCarBestPrice .offerCTA {
+        padding-left: 85px;
+        padding-top: 0;
+        width: auto
+    }
+
+    .SellCarBestPrice .offerCTA .OrButton {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        width: 170px
+    }
+
+    .SellCarBestPrice .offerCTA .link {
+        display: inline-block;
+        padding-left: 20px;
+        padding-top: 10px
+    }
+}
+
+.adText.doodleAd {
+    display: inline-flex!important;
+    margin: 0 0 0 10px!important;
+    min-height: auto!important;
+    position: relative;
+    top: -6px;
+    vertical-align: top;
+    width: 60px!important
+}
+
+.adText.adLoaded p,.adText.doodleAd p {
+    display: none
+}
+
+.adText.adLoaded.alignTop {
+    align-items: flex-start;
+    overflow: hidden
+}
+
+.adText.adLoaded.autoHeight {
+    height: auto!important;
+    justify-content: center;
+    overflow: initial
+}
+
+.adText.adHolderMidPage {
+    display: block;
+    overflow: initial
+}
+
+.adText.adHolderMidPage p {
+    max-width: none!important;
+    min-width: auto!important
+}
+
+.adText [id*=div-gpt-ad-][data-type=fluid],.adText [id^=div-gpt-ad-][data-type=fluid] {
+    min-width: 100%
+}
+
+.add728 {
+    width: 728px
+}
+
+.add320,.add728 {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.add320 {
+    min-height: 123px!important;
+    width: 320px!important
+}
+
+.carLaunched li .adText {
+    margin-top: 0
+}
+
+.jwvideo-player.clsFix {
+    margin-bottom: 0;
+    min-height: 230px
+}
+
+@media screen and (min-width: 768px) {
+    .adText {
+        margin:20px auto
+    }
+
+    .adText.doodleAd {
+        position: absolute;
+        top: -17px;
+        width: 75px!important
+    }
+
+    .adText p {
+        max-width: 970px
+    }
+
+    .compareLanding .adText.adTopHolder,.latestSpanel .gsc_col-xs-12 .adText,.upcomingCars li .adText {
+        margin-top: 0
+    }
+
+    .jwvideo-player.clsFix {
+        margin-bottom: 0;
+        min-height: auto
+    }
+
+    .adSticky+.adText,.adText+.adSticky,.jwvideo-player.clsFix p {
+        display: none
+    }
+}
+
+.text-right {
+    text-align: right
+}
+
+.hide {
+    display: none!important
+}
+
+.show {
+    display: block!important
+}
+
+.marginBottom20 {
+    margin-bottom: 12px
+}
+
+.shadow24 {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(36,39,44,.15);
+    padding: 15px 20px 20px
+}
+
+.shadow24>h2 {
+    margin-bottom: 24px
+}
+
+.shadow24 .card {
+    margin-bottom: 3px
+}
+
+.shadowWPadding {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(36,39,44,.15);
+    padding: 0
+}
+
+@media screen and (min-width: 768px) {
+    .shadow24 {
+        padding:19px 24px 21px
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display:none!important
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .hidden-sm {
+        display:none!important
+    }
+
+    .marginBottom20 {
+        margin-bottom: 20px
+    }
+
+    .marginTop20 {
+        margin-top: 20px
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .marginBottom20 {
+        margin-bottom:20px
+    }
+
+    .marginTop20 {
+        margin-top: 20px
+    }
+}
+
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display:none!important
+    }
+
+    .marginBottom20 {
+        margin-bottom: 20px
+    }
+
+    .marginTop20 {
+        margin-top: 20px
+    }
+}
+
+html {
+    color: rgba(36,39,44,.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5
+}
+
+body,html {
+    font-family: roboto,Sans-Serif,Arial
+}
+
+body {
+    background: #fafafa
+}
+
+body,form,p,ul {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0
+}
+
+aside,header,nav,section {
+    display: block
+}
+
+a {
+    background-color: transparent;
+    color: #24272c;
+    text-decoration: none
+}
+
+a img {
+    border: none;
+    display: block;
+    margin: auto
+}
+
+a img,img {
+    max-width: 100%
+}
+
+p {
+    line-height: 1.7
+}
+
+h2,h3 {
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0
+}
+
+h3 a {
+    font-weight: inherit
+}
+
+h2 {
+    color: #24272c;
+    font-weight: 500
+}
+
+h2,h3 {
+    font-size: 20px
+}
+
+h3 {
+    font-weight: 500
+}
+
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    top: -.5em;
+    vertical-align: baseline
+}
+
+img {
+    border-style: none
+}
+
+button,input {
+    display: block;
+    font: inherit;
+    margin: 0
+}
+
+input[type=text]::-ms-clear {
+    display: none
+}
+
+button,input {
+    overflow: visible
+}
+
+button {
+    text-transform: none
+}
+
+[type=submit],button,html [type=button] {
+    -webkit-appearance: button
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: .54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+.clearfix:after,.clearfix:before {
+    content: "";
+    display: block;
+    line-height: 0
+}
+
+.clear,.clearfix:after {
+    clear: both
+}
+
+.inputfield {
+    position: relative
+}
+
+.inputfield input[type=text] {
+    background: #fff;
+    border: 1px solid rgba(36,39,44,.3);
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 16px;
+    height: 48px;
+    padding: 0 30px 0 16px;
+    text-shadow: 0 0 0 #24272c;
+    width: 100%
+}
+
+.inputfield label {
+    color: rgba(36,39,44,.5);
+    font-size: 16px;
+    left: 16px;
+    position: absolute;
+    top: 12px
+}
+
+.inputfield input:-webkit-autofill {
+    box-shadow: inset 0 0 0 40px #fff!important
+}
+
+.link {
+    color: #2176ae;
+    font-size: 14px;
+    padding: 11px 0 10px
+}
+
+.button,.link {
+    display: inline-block;
+    font-weight: 500
+}
+
+.button {
+    background: #f75d34;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 17px;
+    height: 48px;
+    line-height: 47px
+}
+
+.button,.primaryButton {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%
+}
+
+.primaryButton {
+    background: #fff;
+    border: 1px solid #f75d34;
+    border-radius: 2px;
+    color: #f75d34;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 36px;
+    max-width: 245px;
+    overflow: hidden;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.marginTop20 {
+    margin-top: 12px
+}
+
+.title {
+    color: #24272c;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 24px
+}
+
+.gscr_counter {
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    .title,h2,h3 {
+        font-size:23px
+    }
+}
+
+.estimatedPrice {
+    color: rgba(36,39,44,.5);
+    display: inline-block;
+    font-size: 10px;
+    left: 0;
+    line-height: 10px;
+    margin-top: 5px;
+    min-height: 10px
+}
+
+[data-autofit] {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%
+}
+
+[data-autofit] img {
+    max-width: none;
+    width: auto
+}
+
+.exShowroomBottom {
+    margin-bottom: 10px;
+    padding: 0 20px
+}
+
+.exShowroomBottom .estimatedPrice {
+    margin-top: 10px
+}
+
+@media screen and (max-width: 767px) {
+    [id*=div-gpt-ad-],[id^=div-gpt-ad-] {
+        max-width:100%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .exShowroomBottom {
+        padding:0
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .marginTop20 {
+        margin-top:20px
+    }
+}
+
+.Smooth {
+    -webkit-overflow-scrolling: auto;
+    scroll-behavior: smooth
+}
+
+.icon-cd_R {
+    margin: 0 4px 0 0!important;
+    vertical-align: -1px!important
+}
+
+.button {
+    max-width: 100%
+}
+
+[class*=" icon-"],[class^=icon-] {
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: cd-fonts!important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none
+}
+
+.icon-my-order-new:before {
+    content: "\e9c3"
+}
+
+.icon-my-vehical-new:before {
+    content: "\e9c4"
+}
+
+.icon-time:before {
+    content: "\e93b"
+}
+
+.icon-setting-new:before {
+    content: "\e9c7"
+}
+
+.icon-logout:before {
+    color: #8498b0;
+    content: "\e9b5"
+}
+
+.icon-electricNew:before {
+    content: "\e9b0"
+}
+
+.icon-facelift:before {
+    color: #ffa236;
+    content: "\e9b1"
+}
+
+.icon-mycar:before {
+    content: "\e9a0"
+}
+
+.icon-bestprice:before {
+    color: #2176ae;
+    content: "\e99e"
+}
+
+.icon-instant-money:before {
+    color: #2176ae;
+    content: "\e9a6"
+}
+
+.icon-insurancelogo:before {
+    color: #ff2d3c;
+    content: "\e98a"
+}
+
+.icon-cd-more:before {
+    content: "\e981"
+}
+
+.icon-next:before {
+    content: "\e918"
+}
+
+.icon-compare-car:before {
+    content: "\e903"
+}
+
+.icon-new-car:before {
+    content: "\e904"
+}
+
+.icon-news:before {
+    content: "\e906"
+}
+
+.icon-used-car:before {
+    content: "\e909"
+}
+
+.icon-cd-heart_empty:before {
+    content: "\e94b"
+}
+
+.icon-cd-locationPin:before {
+    content: "\e958"
+}
+
+.icon-cd-play_icon:before {
+    content: "\e95b"
+}
+
+.icon-cd_my-account:before {
+    content: "\e922"
+}
+
+*,:after,:before {
+    box-sizing: border-box
+}
+
+.gsc_container {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.gsc_col-lg-2,.gsc_col-lg-5,.gsc_col-lg-6,.gsc_col-lg-7,.gsc_col-md-12,.gsc_col-md-2,.gsc_col-md-3,.gsc_col-md-6,.gsc_col-sm-12,.gsc_col-sm-3,.gsc_col-sm-4,.gsc_col-sm-5,.gsc_col-sm-6,.gsc_col-sm-7,.gsc_col-sm-8,.gsc_col-xs-12,.gsc_col-xs-4,.gsc_col-xs-8 {
+    min-height: 1px;
+    position: relative
+}
+
+.gsc_col-xs-12,.gsc_col-xs-4,.gsc_col-xs-8 {
+    float: left
+}
+
+.gsc_col-xs-12 {
+    width: 100%
+}
+
+.gsc_col-xs-8 {
+    width: 66.66666667%
+}
+
+.gsc_col-xs-4 {
+    width: 33.33333333%
+}
+
+@media only screen and (min-width: 768px) {
+    .gsc_col-sm-12,.gsc_col-sm-3,.gsc_col-sm-4,.gsc_col-sm-5,.gsc_col-sm-6,.gsc_col-sm-7,.gsc_col-sm-8 {
+        float:left
+    }
+
+    .gsc_col-sm-12 {
+        width: 100%
+    }
+
+    .gsc_col-sm-8 {
+        width: 66.66666667%
+    }
+
+    .gsc_col-sm-7 {
+        width: 58.33333333%
+    }
+
+    .gsc_col-sm-6 {
+        width: 50%
+    }
+
+    .gsc_col-sm-5 {
+        width: 41.66666667%
+    }
+
+    .gsc_col-sm-4 {
+        width: 33.33333333%
+    }
+
+    .gsc_col-sm-3 {
+        width: 25%
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .gsc_col-md-12,.gsc_col-md-2,.gsc_col-md-3,.gsc_col-md-6 {
+        float:left
+    }
+
+    .gsc_col-md-12 {
+        width: 100%
+    }
+
+    .gsc_col-md-6 {
+        width: 50%
+    }
+
+    .gsc_col-md-3 {
+        width: 25%
+    }
+
+    .gsc_col-md-2 {
+        width: 16.66666667%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .gsc_col-lg-2,.gsc_col-lg-5,.gsc_col-lg-6,.gsc_col-lg-7 {
+        float:left
+    }
+
+    .gsc_col-lg-7 {
+        width: 58.33333333%
+    }
+
+    .gsc_col-lg-6 {
+        width: 50%
+    }
+
+    .gsc_col-lg-5 {
+        width: 41.66666667%
+    }
+
+    .gsc_col-lg-2 {
+        width: 16.66666667%
+    }
+}
+
+.clearfix:after,.clearfix:before,.gsc_container:after,.gsc_container:before,.gsc_row:after,.gsc_row:before {
+    content: " ";
+    display: table
+}
+
+.clearfix:after,.gsc_container:after,.gsc_row:after {
+    clear: both
+}
+
+@media only screen and (min-width: 768px) {
+    .gsc_container {
+        max-width:98%;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .gsc_row {
+        margin-left: -10px;
+        margin-right: -10px
+    }
+
+    .gsc_col-lg-2,.gsc_col-lg-5,.gsc_col-lg-6,.gsc_col-lg-7,.gsc_col-md-12,.gsc_col-md-2,.gsc_col-md-3,.gsc_col-md-6,.gsc_col-sm-12,.gsc_col-sm-3,.gsc_col-sm-4,.gsc_col-sm-5,.gsc_col-sm-6,.gsc_col-sm-7,.gsc_col-sm-8,.gsc_col-xs-12,.gsc_col-xs-4,.gsc_col-xs-8 {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .gsc_container {
+        max-width:98%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .gsc_container {
+        max-width:1280px;
+        width: 98%
+    }
+}
+
+.newswidget li p,.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.icon-gaadistore:before {
+    content: "\e99c"
+}
+
+@media screen and (max-width: 768px) {
+    .contantVisable {
+        contain-intrinsic-size:1px 550px;
+        content-visibility: auto
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header .shortlist-icon {
+        margin:3px 0 0 14px
+    }
+}
+
+.header {
+    background: #fff;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1100
+}
+
+.header .topArea {
+    padding: 11px 0
+}
+
+.header .topArea .logo {
+    margin-top: 4px
+}
+
+.header .topArea .logo a {
+    display: block;
+    width: 174px
+}
+
+.header .topArea .logo img {
+    height: 42px;
+    margin: 0;
+    max-width: 100%;
+    width: 100%
+}
+
+.header .topArea .searchArea {
+    z-index: 5
+}
+
+.header .topArea .searchArea form {
+    margin: auto;
+    position: relative;
+    width: 100%
+}
+
+.header .topArea .searchArea input {
+    background: #f7f7f7;
+    border: 0;
+    border-left: 1px solid rgba(36,39,44,.1);
+    border-radius: 4px 0 0 4px;
+    box-shadow: inset 0 1px 4px 0 rgba(0,0,0,.1);
+    color: #24272c;
+    float: right;
+    font-size: 14px;
+    height: 48px;
+    line-height: 18px;
+    margin-right: 60px;
+    padding: 0 20px;
+    text-overflow: ellipsis;
+    width: 84%
+}
+
+.header .topArea .searchArea .searchbtn {
+    background: #24272c;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    display: inline-block;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px
+}
+
+.header .topArea .searchArea .searchbtn i {
+    display: block;
+    height: 10px;
+    left: -5px;
+    margin: auto;
+    position: relative;
+    top: -2px;
+    transform: rotate(-45deg);
+    width: 10px
+}
+
+.header .topArea .searchArea .searchbtn i:before {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 13px;
+    position: absolute;
+    width: 13px
+}
+
+.header .topArea .searchArea .searchbtn i:after {
+    background: #fff;
+    border-radius: 3px;
+    content: "";
+    display: block;
+    height: 7px;
+    left: 4px;
+    position: absolute;
+    top: 12px;
+    width: 3px
+}
+
+.header .topArea .LangProfile {
+    color: rgba(36,39,44,.7);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+    position: relative;
+    text-decoration-line: underline
+}
+
+.header .topArea .LangProfile:after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #24272c;
+    content: "";
+    display: inline-block;
+    margin-left: 5px
+}
+
+.header .topArea .shortlist-icon {
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    width: 17px
+}
+
+.header .topArea .shortlist-icon .icon {
+    color: rgba(36,39,44,.9);
+    font-size: 18px;
+    font-weight: 700
+}
+
+.header .topArea .shortlist-icon .icon.icon-cd-heart_empty:before {
+    content: "\e94b"
+}
+
+.header .topArea .shortlist-icon .heartCount {
+    background: #f75d34;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+    height: 12px;
+    left: 10px;
+    line-height: 12px;
+    position: absolute;
+    text-align: center;
+    top: -7px;
+    width: 15px
+}
+
+.header .topArea .loginAreaRight {
+    margin-top: 10px
+}
+
+.header .topArea .loginAreaRight>ul {
+    text-align: right
+}
+
+.header .topArea .loginAreaRight li {
+    display: inline-block;
+    margin-left: 34px;
+    vertical-align: middle
+}
+
+.header .topArea .loginAreaRight li:last-child {
+    margin-right: 0;
+    position: relative
+}
+
+.header .topArea .loginAreaRight li .username {
+    color: #24272c;
+    display: inline-block;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+.header .topArea .loginAreaRight li .username .userIcon {
+    font-size: 17px;
+    height: 17px;
+    margin-right: 7px;
+    vertical-align: -3px;
+    width: 17px
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown {
+    left: -9999px;
+    opacity: 0;
+    padding: 15px 0 0;
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    transform: rotateX(0);
+    transform-origin: 0 0;
+    z-index: 9
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount {
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.15);
+    padding: 5px 10px;
+    position: relative;
+    width: 188px
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount ul {
+    display: block
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount li {
+    border-bottom: 1px solid #d5d6d5;
+    color: #24272c;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 12px 0;
+    vertical-align: middle;
+    width: 100%
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount li:last-child {
+    border-bottom: 0;
+    text-align: left
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount li i {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 14px
+}
+
+.header .topArea .loginAreaRight li .myaccountdropdown .myaccount li i:before {
+    color: #24272c
+}
+
+.header .topArea .LangProfileBox {
+    position: relative
+}
+
+.header .bottomArea {
+    border-top: 1px solid rgba(36,39,44,.1);
+    box-shadow: 0 3px 6px 0 rgba(36,39,44,.1);
+    position: relative;
+    z-index: 1
+}
+
+.header .bottomArea nav ul {
+    margin-right: 0
+}
+
+.header .bottomArea nav li {
+    display: inline-block;
+    line-height: 90px;
+    position: relative;
+    width: auto
+}
+
+.header .bottomArea nav li.new span.innerSpan:after {
+    background: #f75d34;
+    border-radius: 2px;
+    color: #fff;
+    content: "New";
+    display: inline-block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 5px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: 1px;
+    width: 38px
+}
+
+.header .bottomArea nav li>a,.header .bottomArea nav li>span {
+    border-top: 3px solid transparent;
+    color: rgba(36,39,44,.87);
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    height: 51px;
+    line-height: 50px;
+    padding: 0 5px;
+    position: relative;
+    text-transform: uppercase;
+    top: -1px
+}
+
+.header .bottomArea nav li>a:after,.header .bottomArea nav li>span:after {
+    background: #fff;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999
+}
+
+.header .bottomArea nav li>a i,.header .bottomArea nav li>span i {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #24272c;
+    display: inline-block;
+    height: 4px;
+    margin: 0 5px 0 3px;
+    vertical-align: 3px;
+    width: 4px
+}
+
+.header .bottomArea nav li .subMenu {
+    background: #fff;
+    border: 1px solid rgba(36,39,44,.15);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    left: -9999px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: 51px;
+    transform: rotateX(-92deg);
+    transform-origin: 0 0;
+    width: 200px
+}
+
+.header .bottomArea nav li .subMenu li {
+    border-bottom: 1px solid rgba(36,39,44,.1);
+    float: left;
+    text-align: left;
+    width: 100%
+}
+
+.header .bottomArea nav li .subMenu li.new span.innerSpan:after {
+    background: #f75d34;
+    border-radius: 2px;
+    color: #fff;
+    content: "New";
+    display: inline-block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 5px;
+    opacity: 1;
+    text-align: center;
+    vertical-align: 1px;
+    width: 38px
+}
+
+.header .bottomArea nav li .subMenu li:last-child {
+    border-bottom: 0
+}
+
+.header .bottomArea nav li .subMenu li .icon-insurancelogo {
+    font-size: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: -4px;
+    width: 18px
+}
+
+.header .bottomArea nav li .subMenu li .carTyres {
+    height: 21px;
+    margin-right: 8px;
+    vertical-align: -6px;
+    width: 21px
+}
+
+.header .bottomArea nav li .subMenu li .carTyres img {
+    height: 21px;
+    width: 21px
+}
+
+.header .bottomArea nav li .subMenu li .usedCar img {
+    display: initial;
+    height: 15px;
+    margin-right: 9px;
+    position: relative;
+    top: 2px;
+    width: 20px
+}
+
+.header .bottomArea nav li .subMenu li a,.header .bottomArea nav li .subMenu li span {
+    border-top: none;
+    color: #24272c;
+    font-size: 14px;
+    font-weight: 400;
+    height: 38px;
+    line-height: 19px;
+    padding: 10px 20px;
+    text-transform: none;
+    top: 0
+}
+
+.header .bottomArea nav li .subMenu li a:after,.header .bottomArea nav li .subMenu li span:after {
+    opacity: 0
+}
+
+.header .bottomArea nav li .subMenu li a i,.header .bottomArea nav li .subMenu li span i {
+    border: 1px solid rgba(36,39,44,.5);
+    border-width: 0 0 1px 1px;
+    display: inline-block;
+    font-size: 0;
+    height: 7px;
+    line-height: 0;
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    transform: rotate(-135deg);
+    width: 7px
+}
+
+.header .bottomArea nav li .subMenu li a span,.header .bottomArea nav li .subMenu li span span {
+    padding: 0
+}
+
+.header .bottomArea nav li .subMenu li .subMenuDeep {
+    background: #fff;
+    border: 1px solid rgba(36,39,44,.15);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    left: 197px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    top: -1px;
+    visibility: hidden;
+    width: 200px
+}
+
+.header .bottomArea nav li .subMenu li .subMenuDeep a,.header .bottomArea nav li .subMenu li .subMenuDeep span {
+    color: rgba(36,39,44,.7)!important
+}
+
+.header .bottomArea nav li .subMenu li .subMenuDeep li span.innerSpan:after {
+    display: none
+}
+
+.header .bottomArea nav li .subMenu li .scroll {
+    height: 400px;
+    overflow: auto
+}
+
+.header .bottomArea .linkArea {
+    position: absolute;
+    right: 10px;
+    top: 16px
+}
+
+.header .bottomArea .linkArea i {
+    font-size: 18px;
+    vertical-align: middle
+}
+
+.header .bottomArea .linkArea .icon-cd-locationPin {
+    height: 18px;
+    width: 12px
+}
+
+.header .bottomArea .linkArea [data-icon-arrow-bottom=withoutfill] {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid rgba(36,39,44,.5);
+    display: inline-block;
+    height: 0;
+    margin: 0 3px 0 9px;
+    width: 0
+}
+
+.header .bottomArea .linkArea>span {
+    color: rgba(36,39,44,.7);
+    display: inline-block;
+    font-size: 14px;
+    max-width: 130px;
+    overflow: hidden;
+    padding-left: 5px;
+    position: relative;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+    z-index: 1
+}
+
+@media screen and (min-width: 767px) {
+    .header {
+        z-index:2600
+    }
+
+    .header .topArea .searchArea form {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bottomArea nav ul {
+        margin-right:50px
+    }
+}
+
+@media screen and (min-width: 1005px) {
+    .header .topArea .searchArea form {
+        width:100%
+    }
+
+    .header .bottomArea nav li {
+        padding: 0 13px 0 0
+    }
+
+    .header .bottomArea nav li .subMenu li {
+        padding: 0
+    }
+
+    .header .bottomArea nav li>a,.header .bottomArea nav li>span {
+        font-size: 14px;
+        padding: 0
+    }
+
+    .searchArea input {
+        padding: 0 10px 0 37px
+    }
+
+    .header .bottomArea nav li .subMenu {
+        width: 300px
+    }
+
+    .header .bottomArea nav li .subMenu li a,.header .bottomArea nav li .subMenu li span {
+        font-size: 13px
+    }
+
+    .header .bottomArea nav li .subMenu li .subMenuDeep {
+        left: 297px;
+        width: 300px
+    }
+}
+
+@media screen and (min-width: 1174px) {
+    .header .bottomArea nav ul {
+        margin-left:0
+    }
+
+    .header .bottomArea nav li {
+        padding: 0 31px 0 0
+    }
+}
+
+.gsc_modal {
+    z-index: 2030
+}
+
+.gsc_modal,.gsc_modalWindow {
+    display: none;
+    left: 0;
+    position: fixed;
+    top: 0
+}
+
+.gsc_modalWindow {
+    background: #fff;
+    margin-left: 0!important;
+    min-height: 200px;
+    width: 100%;
+    z-index: 20030!important
+}
+
+.gsc_modal.gsc_overlay,.gsc_overlay1 {
+    display: inline!important
+}
+
+.gsc_overlay,.gsc_overlay1 {
+    background: rgba(0,0,0,.7);
+    height: 0;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 0;
+    z-index: 2600
+}
+
+.gsc_overlay1.open {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    width: 100%
+}
+
+.gsc_closeBtn {
+    color: #24272c;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 23px;
+    padding: 10px;
+    position: absolute;
+    right: 6px;
+    text-align: center;
+    top: 1px
+}
+
+@media screen and (max-width: 767px) {
+    .gsc_modalWindow {
+        height:100%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gsc_modalWindow {
+        border-radius:3px;
+        height: auto;
+        left: 50%;
+        margin-left: -300px!important;
+        min-height: 200px;
+        top: 20%;
+        width: 600px
+    }
+}
+
+.vsTag {
+    background: #000;
+    border: 1px solid rgba(36,39,44,.15);
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500;
+    height: 36px;
+    line-height: 36px;
+    margin-top: -18px;
+    position: absolute;
+    right: -18px;
+    text-align: center;
+    top: 50%;
+    width: 36px;
+    z-index: 1
+}
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    float: left;
+    margin-bottom: 16px;
+    width: 100%
+}
+
+.card .paddingnone {
+    padding: 0
+}
+
+.card .holder {
+    padding: 15px 16px 16px
+}
+
+.card .title,.card h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+.card img {
+    display: block;
+    width: 100%
+}
+
+.card .imgTopRound img {
+    border-radius: 2px 2px 0 0
+}
+
+.card .price {
+    color: #24272c;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 5px 0 0;
+    position: relative
+}
+
+.card .price .icon-cd_R {
+    font-size: 17px
+}
+
+.card .price span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.card .price .estimatedPrice {
+    color: rgba(36,39,44,.5);
+    margin-left: 5px
+}
+
+.card .dotlist {
+    color: rgba(36,39,44,.5);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 15px;
+    text-align: left
+}
+
+.card .dotlist span {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative
+}
+
+.card .dotlist span:first-child {
+    margin-left: 0
+}
+
+.card .dotlist span:first-child:before {
+    display: none
+}
+
+.card .dotlist span:before {
+    background: rgba(36,39,44,.5);
+    border-radius: 50%;
+    content: "";
+    height: 3px;
+    left: -11px;
+    position: absolute;
+    top: 6px;
+    width: 3px
+}
+
+.card .buttonHolder {
+    margin-top: 16px
+}
+
+.card .buttonHolder .primaryButton {
+    margin-bottom: 0;
+    max-width: 100%;
+    width: calc(100% - 83px)
+}
+
+.card.card_news {
+    margin-bottom: 12px;
+    position: relative
+}
+
+.card.card_news .holder {
+    padding: 11px 16px 14px;
+    position: static
+}
+
+.card.card_news h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 7px
+}
+
+.card.card_news p {
+    font-size: 12px;
+    line-height: 1.67
+}
+
+.card.card_news .authorCard {
+    display: inline-block;
+    margin-top: 13px;
+    width: 100%
+}
+
+.card.card_news .authorCard .authorThumbName {
+    background: #fafafa;
+    border-radius: 100%;
+    float: left;
+    font-size: 20px;
+    height: 36px;
+    overflow: hidden;
+    padding-top: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 36px
+}
+
+.card.card_news .authorCard .authorSummary {
+    margin-left: 49px;
+    padding-top: 2px
+}
+
+.card.card_news .authorCard .name {
+    font-size: 13px;
+    line-height: 1.38;
+    margin-bottom: 1px
+}
+
+.card.card_news .dotlist {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.card.card_video {
+    box-shadow: 0 1px 3px rgba(36,39,44,.15)
+}
+
+.card.card_video .card_image {
+    position: relative
+}
+
+.card.card_video .icon-cd-play_icon {
+    background: #fff;
+    border-radius: 100%;
+    font-size: 18px;
+    height: 44px;
+    left: 50%;
+    margin: -22px 0 0 -22px;
+    padding: 13px 0 0 17px;
+    position: absolute;
+    top: 50%;
+    width: 44px
+}
+
+.card.card_video .icon-cd-play_icon:before {
+    color: #24272c
+}
+
+.card.card_video .holder {
+    padding: 14px 16px
+}
+
+.card.card_video .title {
+    color: #24272c;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: normal
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        margin-bottom:20px
+    }
+
+    .card .imgTopRound div {
+        border-radius: 2px 2px 0 0
+    }
+
+    .card .buttonHolder {
+        margin-top: 13px
+    }
+
+    .card .holder {
+        padding: 13px 16px 16px
+    }
+
+    .card.card_news {
+        margin-bottom: 20px
+    }
+
+    .card.card_news .holder {
+        padding: 17px 20px 15px;
+        white-space: normal
+    }
+
+    .card.card_news h3 {
+        font-size: 20px;
+        margin-bottom: 8px
+    }
+
+    .card.card_news p {
+        font-size: 16px
+    }
+
+    .card.card_news .authorCard {
+        margin-top: 34px
+    }
+
+    .card.card_news .authorCard .authorSummary {
+        margin-left: 48px
+    }
+
+    .card.card_news .dotlist {
+        font-size: 12px
+    }
+
+    .card.card_video .holder {
+        padding: 13px 16px 15px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card .buttonHolder {
+        margin-top:16px
+    }
+
+    .card .buttonHolder .primaryButton {
+        width: calc(100% - 53px)
+    }
+
+    .card .price {
+        margin: 2px 0 0
+    }
+
+    .card .dotlist {
+        margin-top: 21px
+    }
+
+    .card .dotlist.BottomMarginRemove {
+        margin-bottom: 0
+    }
+
+    .card .dotlist span {
+        margin-left: 20px
+    }
+
+    .card.card_news .holder {
+        padding: 24px 24px 16px
+    }
+
+    .card.card_news .authorCard {
+        margin-top: 35px
+    }
+
+    .card.card_video {
+        padding: 16px
+    }
+
+    .card.card_video .holder {
+        padding: 0 0 0 16px
+    }
+
+    .card.card_video .title {
+        font-size: 16px;
+        height: 77px;
+        margin: -1px 0 22px;
+        overflow: hidden
+    }
+
+    .card.card_video .dotlist {
+        margin-bottom: 0
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .mobileCarousel {
+        -moz-overflow-scrolling:touch;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+        margin: 0 -24px;
+        overflow-x: auto;
+        padding: 0 0 0 24px;
+        position: relative;
+        white-space: nowrap
+    }
+
+    .mobileCarousel::-webkit-scrollbar {
+        display: none
+    }
+
+    .mobileCarousel .gsc_main {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap
+    }
+
+    .mobileCarousel .gsc_main li {
+        display: inline-block;
+        float: none;
+        list-style: none;
+        margin-right: 20px;
+        padding: 0;
+        position: relative;
+        vertical-align: top;
+        width: 288px
+    }
+
+    .mobileCarousel .gsc_main li:last-child {
+        margin-right: 20px
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .iPadCarousel {
+        -moz-overflow-scrolling:touch;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+        margin: 0 -14px;
+        overflow-x: auto;
+        padding: 0 0 0 24px;
+        position: relative;
+        white-space: nowrap
+    }
+
+    .iPadCarousel::-webkit-scrollbar {
+        display: none
+    }
+
+    .iPadCarousel .gsc_main {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap
+    }
+
+    .iPadCarousel .gsc_main li {
+        display: inline-block;
+        float: none;
+        list-style: none;
+        margin-right: 20px;
+        padding: 0;
+        position: relative;
+        vertical-align: top;
+        width: 288px
+    }
+
+    .iPadCarousel .gsc_main li:last-child {
+        margin-right: 20px
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mobileCarousel {
+        margin:0 -20px;
+        padding: 0 0 0 20px
+    }
+
+    .mobileCarousel .gsc_main li {
+        margin-right: 12px;
+        width: 264px
+    }
+}
+
+.gs_ta label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 75%
+}
+
+.gsc_ta_scroll_move {
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -20px;
+    overflow-y: hidden;
+    white-space: nowrap
+}
+
+.gsc_ta_scroll_move::-webkit-scrollbar {
+    display: none
+}
+
+.gsc_ta_scroll_move .gsc-ta-clickWrap {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto
+}
+
+.gsc_ta_scroll_move .gsc-ta-clickWrap::-webkit-scrollbar {
+    display: none
+}
+
+.gsc_ta_scroll_move .gsc-ta-clickWrap li:last-child {
+    margin-right: 20px
+}
+
+.gsc-ta-clickWrap::-webkit-scrollbar {
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    .gsc_ta_scroll .gsc-ta-clickWrap {
+        width:100%
+    }
+
+    .gsc_ta_scroll .gsc-ta-clickWrap li {
+        font-size: 16px;
+        line-height: 16px;
+        text-transform: none
+    }
+
+    .gsc_ta_scroll_move .gsc-ta-clickWrap {
+        width: calc(100% - 40px)
+    }
+}
+
+.hide {
+    display: none
+}
+
+@-webkit-keyframes placeHolderShimmerlarge {
+    0% {
+        background-position: 35% 0
+    }
+
+    to {
+        background-position: -35% 0
+    }
+}
+
+@keyframes placeHolderShimmerlarge {
+    0% {
+        background-position: 30% 0
+    }
+
+    to {
+        background-position: -30% 0
+    }
+}
+
+.contentLoader {
+    background-color: #fff;
+    border: 1px solid rgba(36,39,44,.1);
+    color: #141823;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%
+}
+
+.contentLoader .animated-background,.contentLoader .animated-backgroundlarge {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmerlarge;
+    animation-name: placeHolderShimmerlarge;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: #eee;
+    background: -webkit-gradient(linear,left top,right top,color-stop(8%,#eee),color-stop(18%,#ddd),color-stop(33%,#eee));
+    background: -webkit-linear-gradient(left,#eee 8%,#ddd 18%,#eee 33%);
+    background: linear-gradient(90deg,#eee 8%,#ddd 18%,#eee 33%);
+    background-size: 400% 16px;
+    height: 16px;
+    margin: 0 15px 10px;
+    position: relative
+}
+
+.contentLoader .animated-backgroundlarge.secondRow {
+    width: 70%
+}
+
+
+
+.imageTransition {
+    opacity: 1
+}
+
+.comparisonsWrapper {
+    margin-bottom: 3px
+}
+
+.comparisonsWrapper.brandModel .carBoxs+.carBoxs {
+    text-align: left
+}
+
+.comparisonsWrapper.brandModel .carBoxs .brandTitle {
+    color: #6f6f6f;
+    display: block;
+    font-size: 12px;
+    margin: 7px 0 0
+}
+
+.comparisonsWrapper.brandModel .carBoxs .modelTitle {
+    color: #24272c;
+    display: block;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.comparisonsWrapper.brandModel .carBoxs .price {
+    margin: 0 0 8px
+}
+
+.comparisonsWrapper .vsTag {
+    background: #24272c;
+    border: 1px solid rgba(36,39,44,.15);
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500;
+    height: 36px;
+    line-height: 36px;
+    margin-top: -18px;
+    position: absolute;
+    right: -18px;
+    text-align: center;
+    top: 50%;
+    width: 36px;
+    z-index: 1
+}
+
+.comparisonsWrapper .holder {
+    padding-left: 12px;
+    position: static
+}
+
+.comparisonsWrapper .carBoxs {
+    float: left;
+    padding-left: 0;
+    position: relative;
+    width: 50%
+}
+
+.comparisonsWrapper .carBoxs .paddingnone {
+    min-height: 88px!important
+}
+
+.comparisonsWrapper .carBoxs .paddingnone .LazyLoadUpperDiv {
+    height: 88px!important
+}
+
+.comparisonsWrapper .carBoxs .paddingnone .LazyLoadUpperDiv img {
+    height: 100%!important;
+    object-fit: cover
+}
+
+.comparisonsWrapper .carBoxs img {
+    border-radius: 2px 2px 0 0;
+    max-width: -webkit-fill-available
+}
+
+.comparisonsWrapper .carBoxs .price {
+    color: #24272c;
+    font-size: 11px;
+    line-height: 24px;
+    margin: 5px 0 8px
+}
+
+.comparisonsWrapper .carBoxs .icon-cd_R {
+    font-size: 12px
+}
+
+.comparisonsWrapper .carBoxs+.carBoxs {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: right
+}
+
+.comparisonsWrapper .carBoxs+.carBoxs .holder {
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.comparisonsWrapper .primaryButton {
+    display: block;
+    margin: 8px auto
+}
+
+@media screen and (min-width: 768px) {
+    .comparisonsWrapper .holder {
+        padding-left:16px
+    }
+
+    .comparisonsWrapper .carBoxs img {
+        max-width: 100%
+    }
+
+    .comparisonsWrapper .carBoxs .icon-cd_R {
+        font-size: 16px
+    }
+
+    .comparisonsWrapper .carBoxs .paddingnone {
+        min-height: inherit!important
+    }
+
+    .comparisonsWrapper .carBoxs .paddingnone .LazyLoadUpperDiv {
+        height: inherit!important
+    }
+
+    .comparisonsWrapper .carBoxs .paddingnone .LazyLoadUpperDiv img {
+        height: inherit!important;
+        object-fit: cover
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .comparisonsCard .iPadCarousel {
+        margin:0 -24px
+    }
+
+    .comparisonsCard .iPadCarousel .gsc_main li {
+        width: 440px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .comparisonsWrapper.brandModel .carBoxs .brandTitle {
+        font-size:14px
+    }
+
+    .comparisonsWrapper.brandModel .carBoxs .modelTitle {
+        font-size: 16px
+    }
+
+    .comparisonsWrapper.brandModel .carBoxs .price {
+        margin: 0 0 15px
+    }
+
+    .comparisonsWrapper.brandModel .carBoxs .paddingnone .LazyLoadUpperDiv {
+        height: 130px!important
+    }
+
+    .comparisonsWrapper .carBoxs .price {
+        font-size: 17px;
+        margin: 5px 0 15px
+    }
+
+    .comparisonsWrapper .primaryButton {
+        display: block;
+        margin: 16px auto;
+        max-width: 300px
+    }
+}
+
+[data-type-tab=height] h2 {
+    margin-bottom: 8px
+}
+
+[data-type-autofitMobile=height] [data-autofit] {
+    height: 194px!important
+}
+
+[data-type-autofitMobile=height] .card {
+    margin-bottom: 3px!important
+}
+
+@media screen and (min-width: 768px) {
+    [data-type-autofit=height] [data-autofit] {
+        height:194px!important
+    }
+
+    [data-type-autofit=height] .card {
+        margin-bottom: 3px!important
+    }
+
+    .popularbrands ul {
+        border: none;
+        margin: 0 auto
+    }
+
+    .popularbrands li {
+        padding: 3px 6px
+    }
+
+    .popularbrands li a {
+        border: none;
+        box-shadow: 0 1px 3px 0 rgba(36,39,44,.15);
+        display: block;
+        padding: 20px 0;
+        text-align: center
+    }
+}
+
+.scrollSmooth {
+    scroll-behavior: smooth
+}
+
+[data-type=css-carousel] ul {
+    -webkit-overflow-scrolling: touch;
+    align-items: center!important;
+    display: block!important;
+    overflow-x: scroll!important;
+    overflow-y: hidden!important;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap
+}
+
+[data-type=css-carousel] li {
+    display: inline-block;
+    float: none;
+    scroll-snap-align: center;
+    vertical-align: top;
+    width: 100%
+}
+
+.SingleScroll li {
+    scroll-snap-stop:always!important;-webkit-scroll-snap-stop:always!important}
+
+[data-type=css-carousel] ul.overXhidden {
+    overflow: hidden!important
+}
+
+[data-type=css-carousel] .gsc-ta-clickWrap li {
+    width: auto
+}
+
+[data-type=css-carousel] {
+    position: relative
+}
+
+[data-type=css-carousel] .pager {
+    bottom: 18px;
+    left: 10px;
+    position: absolute;
+    text-align: center
+}
+
+[data-type=css-carousel] .pager li {
+    background: #fafafa;
+    border-radius: 50%;
+    float: left;
+    height: 8px;
+    margin: 2px 4px;
+    text-indent: -9999px;
+    width: 8px
+}
+
+[data-type=css-carousel] .pager li.active {
+    background: #f75d34;
+    height: 12px;
+    margin: 0 2px;
+    width: 12px
+}
+
+[data-type=css-carousel]::-webkit-scrollbar {
+    display: none
+}
+
+@media screen and (min-width: 1100px) {
+    [data-type=css-carousel] ul {
+        overflow-x:hidden!important
+    }
+
+    [data-type=css-carousel] li {
+        scroll-snap-align: inherit
+    }
+}
+
+.listMain .listing {
+    border-top: 1px solid rgba(36,39,44,.15)
+}
+
+.listMain .listing li {
+    min-height: 114px
+}
+
+.listMain .listing a {
+    border: 1px solid rgba(36,39,44,.15);
+    border-left: 0;
+    border-top: 0;
+    display: block;
+    min-height: 114px;
+    padding: 16px 0;
+    text-align: center
+}
+
+.listMain .listing span {
+    display: block;
+    line-height: 21px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+@media screen and (min-width: 768px) {
+    .listMain .listing {
+        border-top:none
+    }
+
+    .listMain .listing a {
+        border: 1px solid rgba(36,39,44,.15);
+        border-left: 0;
+        border-top: 0;
+        display: block;
+        padding: 16px 0;
+        text-align: center
+    }
+
+    .listMain .listing span {
+        display: block;
+        line-height: 21px;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .listMain .listing {
+        margin:0 -20px
+    }
+
+    .listMain .listing li:nth-child(3n+3) a {
+        border-right: 0
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .listMain .listing a {
+        border:1px solid rgba(36,39,44,.15);
+        margin-bottom: 20px;
+        padding: 26px 0
+    }
+
+    .listMain .listing span {
+        font-size: 16px
+    }
+}
+
+.featuresSection .gsc-ta-clickWrap {
+    margin-bottom: 24px
+}
+
+@media screen and (max-width: 767px) {
+    [data-type=css-carousel] .pager.newdots {
+        bottom:0;
+        left: auto;
+        margin: 12px auto 0;
+        position: relative;
+        text-align: center;
+        width: 100px
+    }
+
+    [data-type=css-carousel] .pager.newdots li {
+        background: rgba(36,39,44,.15);
+        float: none
+    }
+
+    [data-type=css-carousel] .pager.newdots li.active {
+        background: #f75d34
+    }
+}
+
+.boxshoadowInset li {
+    position: relative
+}
+
+.boxshoadowInset li:after {
+    background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.5));
+    bottom: 0;
+    content: "";
+    height: 72px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.virtualNumberBtn {
+    margin-bottom: 7px;
+    position: relative
+}
+
+.virtualNumberBtn .primaryButton {
+    vertical-align: middle
+}
+
+@media screen and (min-width: 768px) {
+    .comparisonsWrapper [data-autofit] {
+        height:130px!important
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .iPadCarousel .gsc_main li {
+        padding:1px 10px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card.card_video .card_image img {
+        min-height:54px
+    }
+}
+
+.paddingnone {
+    padding: 0
+}
+
+.HomeTopBanner {
+    background: #fff;
+    margin: 0 auto 8px;
+    max-width: 100%;
+    position: relative
+}
+
+.HomeTopBanner .boxshoadowInset {
+    height: 170px;
+    margin: 0;
+    min-height: 170px;
+    overflow: hidden;
+    padding: 0 28px 0 20px
+}
+
+.HomeTopBanner .boxshoadowInset li {
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    border-radius: 10px;
+    height: 170px;
+    margin-right: 12px;
+    opacity: 1!important;
+    overflow: hidden;
+    position: relative
+}
+
+.HomeTopBanner .boxshoadowInset li:last-child {
+    margin-right: 0
+}
+
+.HomeTopBanner .boxshoadowInset li:after {
+    background-image: linear-gradient(180deg,rgba(36,39,44,0),rgba(36,39,44,.7));
+    border-radius: 0 0 10px 10px;
+    bottom: 0;
+    content: "";
+    height: 35%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0
+}
+
+.HomeTopBanner .boxshoadowInset li:first-child:after {
+    display: none
+}
+
+.HomeTopBanner li .mainbox {
+    bottom: 37px;
+    font-size: 18px;
+    font-weight: 500;
+    left: 0;
+    line-height: 1.2;
+    padding: 0 20px 4px;
+    position: absolute;
+    width: 98%;
+    z-index: 3
+}
+
+.mobisearch {
+    padding: 0 0 20px
+}
+
+.mobisearch ul {
+    border: none;
+    height: 90px;
+    margin: -11px 0 0;
+    overflow-y: auto;
+    padding: 0 20px;
+    white-space: nowrap
+}
+
+.mobisearch li {
+    background: #fff;
+    border-bottom: 4px solid #f75d34;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 1px rgba(36,39,44,.15);
+    color: #24272c;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    height: 79px;
+    margin-right: 8px;
+    min-width: 92px;
+    padding: 10px 14px 0;
+    text-transform: uppercase;
+    vertical-align: top
+}
+
+.mobisearch li span {
+    display: block
+}
+
+.mobisearch li a {
+    color: #24272c
+}
+
+.mobisearch li i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 12px
+}
+
+.mobisearch li .icon-cd-more {
+    font-size: 8px;
+    margin: 8px 0 19px
+}
+
+.mobisearch li .icon-gaadistore {
+    margin-bottom: 6px
+}
+
+.mobisearch li:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f75d34;
+    bottom: -10px;
+    content: "";
+    display: none;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute
+}
+
+.mobisearch li.active {
+    background: #f75d34;
+    color: #fff
+}
+
+.mobisearch li:nth-child(2) {
+    border-bottom-color: #f77234
+}
+
+.mobisearch li:nth-child(2):before {
+    border-top: 10px solid #f77234
+}
+
+.mobisearch li:first-child {
+    border-bottom-color: #f78f34;
+    line-height: 15px
+}
+
+.mobisearch li:first-child.active {
+    background: #f78f34
+}
+
+.mobisearch li:first-child:before {
+    border-top: 10px solid #f78f34
+}
+
+.mobisearch li:nth-child(4) {
+    border-bottom-color: #f7a134
+}
+
+.mobisearch li:nth-child(4):before {
+    border-top: 10px solid #f7a134
+}
+
+.mobisearch li:nth-child(5) {
+    border-bottom-color: #f1b734
+}
+
+.mobisearch li:nth-child(5):before {
+    border-top: 10px solid #f1b734
+}
+
+.mobisearch li:last-child {
+    border-bottom-color: #d02f2f;
+    margin-right: 0
+}
+
+.mobisearch li:last-child:before {
+    border-top: 10px solid #d02f2f
+}
+
+.mobisearch li.active:before {
+    display: block
+}
+
+.homepage .popularbrands .listMain .listing a {
+    margin-bottom: 0;
+    min-height: 114px
+}
+
+.homepage .popularbrands .listMain .listing a img {
+    height: 60px;
+    width: 100%
+}
+
+.homepage .card .holder {
+    position: static
+}
+
+.homepage .paddingnone {
+    padding: 0
+}
+
+.homepage .gsc-ta-clickWrap {
+    margin-bottom: 24px
+}
+
+.homepage .shadow24 {
+    position: relative
+}
+
+.homepage .shadow24 .viewAll {
+    position: absolute;
+    right: 24px;
+    top: 10px
+}
+
+.homepage .newswidget li p {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    height: 78px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: inherit
+}
+
+@media screen and (min-width: 768px) {
+    .homepage .popularbrands .listMain .listing a img {
+        height:auto;
+        width: auto
+    }
+
+    .homepage .popularbrands ul {
+        min-height: 164px
+    }
+
+    .HomeTopBanner .boxshoadowInset {
+        height: 546px;
+        margin: 0;
+        padding: 0
+    }
+
+    .HomeTopBanner .boxshoadowInset li {
+        border-radius: 0;
+        height: 546px;
+        position: relative
+    }
+
+    .HomeTopBanner .boxshoadowInset li:after {
+        display: none
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .homepage .newswidget .card .holder {
+        padding-top:15px
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .HomeTopBanner {
+        margin:0 auto 34px;
+        max-width: 1440px;
+        position: relative;
+        z-index: 100
+    }
+
+    .HomeTopBanner .boxshoadowInset {
+        height: 546px
+    }
+
+    .HomeTopBanner li {
+        background-size: inherit;
+        position: relative
+    }
+
+    .HomeTopBanner li .mainbox {
+        bottom: 91px;
+        font-size: 48px;
+        font-weight: 500;
+        left: auto;
+        position: absolute;
+        right: 91px;
+        width: 38%
+    }
+
+    .HomeTopBanner .pager {
+        bottom: 41px;
+        display: flex!important;
+        left: auto;
+        max-width: 800px;
+        position: absolute;
+        right: 90px;
+        width: 58%;
+        z-index: 100
+    }
+
+    .HomeTopBanner .pager li {
+        background: 0 0;
+        border-bottom: 2px solid hsla(0,0%,100%,.5);
+        border-radius: 0;
+        color: hsla(0,0%,100%,.7);
+        font-size: 14px;
+        height: auto;
+        margin: auto 16px 3px 0;
+        min-height: 33px;
+        padding: 3px 0;
+        text-align: left;
+        text-indent: inherit;
+        white-space: break-spaces;
+        width: 140px;
+        word-break: break-word
+    }
+
+    .HomeTopBanner .pager li:last-child {
+        margin: auto 0 3px
+    }
+
+    .HomeTopBanner .pager li.active {
+        background: 0 0;
+        border-bottom: 5px solid #fff;
+        color: #fff;
+        height: auto;
+        margin: auto 16px 3px 0;
+        width: 140px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .trustedUsedCarsHeight {
+        min-height:320px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .trustedUsedCarsHeight {
+        min-height:476px
+    }
+
+    .HomeTopBanner .boxshoadowInset li {
+        margin-right: 0
+    }
+}
+
+.newswidget .tabScroll li:last-child .card.card_video {
+    margin-bottom: 20px;
+    max-height: 200px
+}
+
+.newswidget .tabScroll li:last-child li:last-child .card.card_video {
+    margin-bottom: 0
+}
+
+@media screen and (max-width: 700px) {
+    .newswidget .tabScroll li li:last-child .shadowWPadding {
+        margin-bottom:0!important
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .newswidget .tabScroll li:last-child li:nth-child(3) .card.card_video {
+        margin-bottom:3px
+    }
+}
+
+.newswidget .card .holder {
+    padding: 0 15px;
+    position: relative
+}
+
+.newswidget li .shadowWPadding {
+    box-shadow: none;
+    margin-bottom: 20px!important
+}
+
+.newswidget li .card.card_video {
+    box-shadow: none;
+    margin-bottom: 20px
+}
+
+.newswidget li .card_news h3,.newswidget li .card_video .title {
+    color: #24272c;
+    font-size: 15px;
+    font-weight: 400
+}
+
+.newswidget li .card_video .title {
+    height: auto
+}
+
+.newswidget li p {
+    color: rgba(36,39,44,.5);
+    font-size: 14px;
+    padding-top: 1px
+}
+
+.newswidget li:last-child .card.card_video,.newswidget li:last-child .shadowWPadding {
+    margin-bottom: 0
+}
+
+.newswidget .viewAll {
+    position: absolute;
+    right: 24px;
+    top: 10px
+}
+
+@media screen and (min-width: 992px) {
+    .newswidget [data-autofit] {
+        height:200px!important
+    }
+
+    .newswidget li:nth-child(3) .shadowWPadding,.newswidget li:nth-child(4) .shadowWPadding {
+        margin-bottom: 0!important
+    }
+
+    .newswidget li:nth-child(3) .card.card_video,.newswidget li:nth-child(4) .card.card_video {
+        margin-bottom: 0
+    }
+
+    .newswidget li .card.card_video,.newswidget li .shadowWPadding {
+        box-shadow: 0 1px 3px rgba(36,39,44,.15)
+    }
+
+    .newswidget li .card.card_video .holder {
+        min-height: auto
+    }
+
+    .newswidget li .card_video .title,.newswidget li h3 {
+        font-size: 20px;
+        font-weight: 500
+    }
+
+    .newswidget .card .holder {
+        min-height: 200px;
+        padding: 20px 20px 0
+    }
+
+    .newswidget .card .holder .name {
+        color: #24272c;
+        text-transform: capitalize
+    }
+
+    .newswidget .card .holder .authorCard {
+        bottom: 10px;
+        margin-top: 30px;
+        position: absolute
+    }
+}
+
+.BottomLinkViewAll {
+    border-top: 1px solid rgba(36,39,44,.15);
+    margin: 19px -20px -20px
+}
+
+.BottomLinkViewAll .link {
+    display: block;
+    padding: 14px 20px 12px
+}
+
+@media screen and (min-width: 768px) {
+    .BottomLinkViewAll {
+        margin:19px -24px -20px
+    }
+
+    .BottomLinkViewAll .link {
+        padding: 17px 24px
+    }
+
+    .shadow24 .BottomLinkViewAll {
+        margin: 19px -24px -20px
+    }
+}
+
+[data-before]:before {
+    content: attr(data-before);
+    margin-right: 3px
+}
+
+.UsedCarOffer {
+    display: table;
+    height: calc(100% - 3px)
+}
+
+.UsedCarOffer .link,.UsedCarOffer a {
+    display: table-cell;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle
+}
+
+.UsedCarOffer .cityName {
+    color: #24272c;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    white-space: normal;
+    width: 60%
+}
+
+.UsedCarOffer .arrowbox {
+    background: #f75d34;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px 1px #f75d34;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 73px;
+    line-height: 80px;
+    margin: 0 auto 4px;
+    width: 73px
+}
+
+.UsedCarOffer .arrowbox .icon-next {
+    line-height: 76px
+}
+
+.UsedCarOffer .offerbox {
+    color: rgba(36,39,44,.7);
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 3px;
+    vertical-align: 0
+}
+
+.cardViewAll ul {
+    display: flex!important
+}
+
+.cardViewAll ul.gsc-ta-clickWrap {
+    display: inline-block!important
+}
+
+.cardViewAll li {
+    flex: none;
+    scroll-snap-align: inherit
+}
+
+.cardViewAll li:last-child {
+    padding-right: 0
+}
+
+.cardViewAll .mobileCarousel li:last-child {
+    width: 284px
+}
+
+@media screen and (min-width: 768px) {
+    .cardViewAll ul {
+        align-items:inherit!important;
+        overflow: hidden
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.cdTagBox {
+    bottom: 10px;
+    left: 0;
+    padding: 0 10px;
+    position: absolute;
+    width: 100%
+}
+
+.cdTag {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(36,39,44,.15);
+    color: #242424;
+    float: left;
+    font-size: 10px;
+    font-weight: 500;
+    height: 20px;
+    line-height: 21px;
+    padding: 0 10px;
+    text-align: center
+}
+
+.cdTag.cdTagRight {
+    float: right
+}
+
+.cdTag i {
+    margin-right: 6px
+}
+
+.carRecommenderEntryP {
+    align-items: flex-start;
+    background: linear-gradient(left,hsla(0,0%,93%,0),#fefefe 5%,#f0f0f0);
+    border-radius: 0;
+    box-shadow: 0 1px 3px 0 rgba(36,39,44,.15);
+    display: flex;
+    flex-direction: column;
+    height: 208px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+    position: relative
+}
+
+.carRecommenderEntryP .imgGroup {
+    bottom: 0;
+    height: 200px;
+    left: 164px;
+    position: absolute;
+    width: 200px
+}
+
+.carRecommenderEntryP .imgGroup .man {
+    bottom: 0;
+    height: 155px;
+    left: auto;
+    position: absolute;
+    right: 30px;
+    width: 120px
+}
+
+.carRecommenderEntryP .imgGroup .ring {
+    height: 29px;
+    left: 70px;
+    position: absolute;
+    top: 39px;
+    width: 80px
+}
+
+.carRecommenderEntryP .imgGroup .seats {
+    animation: recommenderShake1 6s;
+    animation-delay: .6s;
+    animation-iteration-count: infinite;
+    height: 16px;
+    left: 143px;
+    position: absolute;
+    top: 64px;
+    width: 40px
+}
+
+.carRecommenderEntryP .imgGroup .brand {
+    animation: recommenderShake2 7s;
+    animation-iteration-count: infinite;
+    height: 16px;
+    left: 32px;
+    position: absolute;
+    top: 29px;
+    width: 40px
+}
+
+.carRecommenderEntryP .imgGroup .budget {
+    animation: recommenderShake3 6s;
+    animation-delay: .8s;
+    animation-iteration-count: infinite;
+    height: 22px;
+    left: 72px;
+    position: absolute;
+    top: -4px;
+    width: 40px
+}
+
+.carRecommenderEntryP .imgGroup .mileage {
+    animation: recommenderShake4 8s;
+    animation-iteration-count: infinite;
+    height: 13px;
+    left: 129px;
+    position: absolute;
+    top: 3px;
+    width: 40px
+}
+
+.carRecommenderEntryP .imgGroup .feature {
+    animation: recommenderShake5 7s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    height: 25px;
+    left: 147px;
+    position: absolute;
+    top: 28px;
+    width: 40px
+}
+
+.carRecommenderEntryP .imgGroup .question {
+    height: 26px;
+    left: 87px;
+    top: 20px;
+    width: 28px
+}
+
+.carRecommenderEntryP .imgGroup .question,.carRecommenderEntryP .imgGroup .star {
+    animation: recommenderShake6 3s;
+    animation-iteration-count: infinite;
+    position: absolute
+}
+
+.carRecommenderEntryP .imgGroup .star {
+    animation-delay: .4s;
+    height: 15px;
+    left: 127px;
+    top: 18px;
+    width: 15px
+}
+
+.carRecommenderEntryP .imgGroup .star2 {
+    height: 6px;
+    left: 87px;
+    position: absolute;
+    top: 18px;
+    width: 6px
+}
+
+.carRecommenderEntryP .imgGroup .star3 {
+    height: 5px;
+    left: 11px;
+    position: absolute;
+    top: 77px;
+    width: 5px
+}
+
+.carRecommenderEntryP .imgGroup .smallDot {
+    height: 5px;
+    left: 170px;
+    position: absolute;
+    top: 20px;
+    width: 5px
+}
+
+.carRecommenderEntryP .txt .recommenderTxt {
+    height: 18px;
+    width: 159px
+}
+
+.carRecommenderEntryP .txt .heading {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px
+}
+
+.carRecommenderEntryP .txt p {
+    color: #000;
+    font-size: 12px;
+    margin-top: 3px
+}
+
+.carRecommenderEntryP .buttonHolder {
+    margin: 10px 0 0
+}
+
+.carRecommenderEntryP .buttonHolder .button {
+    box-shadow: 0 8px 8px 0 rgba(247,93,52,.2);
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+    width: 156px
+}
+
+.carRecommenderEntryP .buttonHolder .button:after {
+    border: 1px solid #fff;
+    border-width: 0 0 2px 2px;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    margin: 2px 7px;
+    transform: rotate(-45deg);
+    width: 8px
+}
+
+@media screen and (min-width: 768px) {
+    .carRecommenderEntryP {
+        align-items:center;
+        background: #f0f0f0;
+        border-radius: 8px;
+        flex-direction: row;
+        height: 200px
+    }
+
+    .carRecommenderEntryP.recommenderHalf .imgGroup {
+        left: 100px
+    }
+
+    .carRecommenderEntryP.recommenderHalf .txt {
+        margin-left: 230px
+    }
+
+    .carRecommenderEntryP .imgGroup .man {
+        height: 129px;
+        left: 0;
+        right: auto;
+        width: 100px
+    }
+
+    .carRecommenderEntryP .imgGroup .ring {
+        left: 13px;
+        top: 62px
+    }
+
+    .carRecommenderEntryP .imgGroup .seats {
+        left: -38px;
+        top: 83px
+    }
+
+    .carRecommenderEntryP .imgGroup .brand {
+        left: -19px;
+        position: absolute;
+        top: 55px;
+        width: 40px
+    }
+
+    .carRecommenderEntryP .imgGroup .budget {
+        left: 10px;
+        position: absolute;
+        top: 18px;
+        width: 40px
+    }
+
+    .carRecommenderEntryP .imgGroup .mileage {
+        left: 81px;
+        position: absolute;
+        top: 18px;
+        width: 40px
+    }
+
+    .carRecommenderEntryP .imgGroup .feature {
+        left: 100px;
+        position: absolute;
+        top: 54px;
+        width: 40px
+    }
+
+    .carRecommenderEntryP .imgGroup .question {
+        left: 34px;
+        position: absolute;
+        top: 43px;
+        width: 28px
+    }
+
+    .carRecommenderEntryP .imgGroup .star {
+        left: 71px;
+        position: absolute;
+        top: 38px;
+        width: 15px
+    }
+
+    .carRecommenderEntryP .imgGroup .star2 {
+        left: 44px;
+        position: absolute;
+        top: 32px;
+        width: 6px
+    }
+
+    .carRecommenderEntryP .imgGroup .star3 {
+        left: 11px;
+        position: absolute;
+        top: 77px;
+        width: 5px
+    }
+
+    .carRecommenderEntryP .imgGroup .smallDot {
+        left: 115px;
+        position: absolute;
+        top: 36px;
+        width: 5px
+    }
+
+    .carRecommenderEntryP .txt .recommenderTxt {
+        height: 18px;
+        width: 159px
+    }
+
+    .carRecommenderEntryP .txt .heading {
+        color: #24272c;
+        font-size: 24px;
+        margin-top: 5px
+    }
+
+    .carRecommenderEntryP .txt p {
+        color: #24272c;
+        font-size: 14px
+    }
+
+    .carRecommenderEntryP .buttonHolder {
+        margin: 30px 0 0 65px
+    }
+
+    .carRecommenderEntryP .buttonHolder .button {
+        font-size: 14px;
+        height: 48px;
+        line-height: 48px;
+        width: 196px
+    }
+}
+
+@keyframes recommenderShake1 {
+    0% {
+        transform: rotate(0) scale(1)
+    }
+
+    25% {
+        transform: rotate(-5deg) scale(.7)
+    }
+
+    50% {
+        transform: rotate(0) scale(1)
+    }
+
+    75% {
+        transform: rotate(5deg) scale(.7)
+    }
+
+    to {
+        transform: rotate(0) scale(1)
+    }
+}
+
+@keyframes recommenderShake2 {
+    0% {
+        transform: rotate(0) scale(1)
+    }
+
+    25% {
+        transform: rotate(-5deg) scale(.7)
+    }
+
+    50% {
+        transform: rotate(0) scale(1)
+    }
+
+    75% {
+        transform: rotate(5deg) scale(.7)
+    }
+
+    to {
+        transform: rotate(0) scale(1)
+    }
+}
+
+@keyframes recommenderShake3 {
+    0% {
+        transform: rotate(0) scale(1)
+    }
+
+    25% {
+        transform: rotate(-5deg) scale(.7)
+    }
+
+    50% {
+        transform: rotate(0) scale(1)
+    }
+
+    75% {
+        transform: rotate(5deg) scale(.7)
+    }
+
+    to {
+        transform: rotate(0) scale(1)
+    }
+}
+
+@keyframes recommenderShake4 {
+    0% {
+        transform: rotate(0) scale(1)
+    }
+
+    25% {
+        transform: rotate(-5deg) scale(.7)
+    }
+
+    50% {
+        transform: rotate(0) scale(1)
+    }
+
+    75% {
+        transform: rotate(5deg) scale(.7)
+    }
+
+    to {
+        transform: rotate(0) scale(1)
+    }
+}
+
+@keyframes recommenderShake5 {
+    0% {
+        transform: rotate(0) scale(1)
+    }
+
+    25% {
+        transform: rotate(-5deg) scale(.7)
+    }
+
+    50% {
+        transform: rotate(0) scale(1)
+    }
+
+    75% {
+        transform: rotate(5deg) scale(.7)
+    }
+
+    to {
+        transform: rotate(0) scale(1)
+    }
+}
+
+@keyframes recommenderShake6 {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(.7)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        float:left;
+        width: 161px
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:767px) {
+    body {
+        zoom:1.06
+    }
+}
+
+.BtnFull .primaryButton {
+    max-width: 100%!important;
+    width: 100%!important
+}
+
+.truncate {
+    white-space: nowrap
+}
+
+.posR {
+    position: relative
+}
+
+.gsc_overlay1.open {
+    background-color: #000;
+    opacity: .65
+}
+
+@media screen and (max-width: 768px) {
+    .gsc_overlay1.open {
+        -webkit-backdrop-filter:blur(4px);
+        backdrop-filter: blur(4px);
+        background-color: #000;
+        background: rgba(0,0,0,.7);
+        opacity: 1
+    }
+}
+
+.adText {
+    align-items: center;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
+    min-height: 90px;
+    position: relative
+}
+
+.adText p {
+    border: 1px solid rgba(36,39,44,.5);
+    border-radius: 4px;
+    bottom: 0;
+    display: inline-block;
+    font-size: 10px!important;
+    height: 18px;
+    left: 0;
+    line-height: 1.6!important;
+    margin-bottom: 5px;
+    margin: auto!important;
+    padding: 0 6px!important;
+    position: absolute;
+    right: 0;
+    text-indent: unset;
+    top: 0;
+    width: 26px
+}
+
+.adText p:before {
+    animation: spin 2s linear infinite;
+    border: 2px solid rgba(36,39,44,.1);
+    border-radius: 50%;
+    border-top-color: rgba(36,39,44,.3);
+    content: "";
+    height: 50px;
+    left: -13px;
+    position: absolute;
+    top: -17px;
+    width: 50px
+}
+
+@media screen and (min-width: 768px) {
+    .adText {
+        margin:20px auto
+    }
+
+    .adText p {
+        max-width: 970px
+    }
+}
+
+.gs_control {
+    color: #24272c;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    padding-left: 34px;
+    position: relative;
+    vertical-align: middle
+}
+
+.gs_control span {
+    color: rgba(36,39,44,.5);
+    font-size: 12px;
+    padding-left: 7px
+}
+
+.gs_control input {
+    opacity: 0;
+    position: absolute;
+    z-index: 1
+}
+
+.gs_control input:checked~.gs_control__indicator {
+    background: #f75d34;
+    border-color: #f75d34
+}
+
+.gs_control input:checked:focus~.gs_control__indicator {
+    background: #f75d34
+}
+
+.gs_control input:disabled~.gs_control__indicator {
+    background: #fafafa;
+    opacity: .6;
+    pointer-events: none
+}
+
+.gs_control input:checked~.gs_control__indicator:after {
+    display: block
+}
+
+.gs_control .gs_radio input~.gs_control__indicator~i {
+    font-style: normal
+}
+
+.gs_control .gs_radio input:checked~.gs_control__indicator~i {
+    color: #f75d34;
+    cursor: pointer;
+    font-style: normal
+}
+
+.gs_control__indicator {
+    background: #fff;
+    border: 1px solid rgba(36,39,44,.5);
+    border-radius: 2px;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    transition: default;
+    width: 18px
+}
+
+.gs_control__indicator:after {
+    content: "";
+    display: none;
+    position: absolute
+}
+
+.gs_radio .gs_control__indicator {
+    border-radius: 50%;
+    top: 2px
+}
+
+.gs_radio .gs_control__indicator:after {
+    background: #f75d34;
+    border-radius: 50%;
+    height: 8px;
+    left: 4px;
+    top: 4px;
+    width: 8px
+}
+
+.gs_radio input:disabled~.gs_control__indicator:after {
+    background: #fafafa
+}
+
+.gs_ta input {
+    padding: 0 30px 0 16px
+}
+
+.typeHeadContainer {
+    position: relative;
+    z-index: 990
+}
+
+.gsc-ta-content {
+    display: none;
+    position: relative;
+    z-index: 4
+}
+
+.gsc-ta-clickWrap {
+    border-bottom: 1px solid rgba(36,39,44,.15);
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%
+}
+
+.gsc-ta-clickWrap li {
+    background: #fff;
+    box-sizing: content-box;
+    color: #24272c;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-right: 40px;
+    padding: 15px 0 16px;
+    position: relative;
+    text-transform: uppercase
+}
+
+.gsc-ta-clickWrap li:after {
+    background: 0 0;
+    bottom: -1px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.gsc-ta-clickWrap li:last-child {
+    margin-right: 0
+}
+
+.gsc-ta-clickWrap li.gsc-ta-active {
+    color: #f75d34
+}
+
+.gsc-ta-clickWrap li.gsc-ta-active:after {
+    background: #f75d34
+}
+
+@media screen and (min-width: 768px) {
+    .HomeTopBanner.hideSearchBox .searchbox {
+        display:none
+    }
+
+    .gsc_ta_scroll .gsc-ta-clickWrap {
+        width: 100%
+    }
+
+    .gsc_ta_scroll .gsc-ta-clickWrap li {
+        font-size: 16px;
+        line-height: 16px;
+        text-transform: none
+    }
+}
+
+.gsc-ta-content.gsc-ta-active {
+    display: block
+}
+
+.zindex1 {
+    z-index: 1
+}
+
+.zindex1.LocIcon {
+    left: 16px;
+    top: 14px
+}
+
+@media screen and (max-width: 767px) {
+    .zindex1 {
+        z-index:9
+    }
+}
+
+.gs_control .gs_radio input:checked~.gs_control__indicator {
+    background: #fff
+}
+
+.HomeTopBanner li {
+    position: relative
+}
+
+@media screen and (min-width: 992px) {
+    .searchbox {
+        background:#fff;
+        border-radius: 5px;
+        box-shadow: 0 0 70px 0 rgba(36,39,44,.3);
+        height: 443px;
+        left: 90px;
+        padding: 19px 24px;
+        position: absolute;
+        top: 54px;
+        width: 348px;
+        z-index: 100
+    }
+
+    .searchbox h1 {
+        font-size: 30px;
+        font-weight: 700
+    }
+
+    .searchbox .gsc-ta-clickWrap {
+        border: none;
+        height: auto;
+        margin-top: 14px;
+        overflow: inherit
+    }
+
+    .searchbox .gsc-ta-clickWrap li {
+        border: 1px solid rgba(36,39,44,.5);
+        border-radius: 4px;
+        font-weight: 500;
+        height: 47px;
+        line-height: 46px;
+        margin-right: 8px;
+        padding: 0;
+        text-align: center;
+        width: 144px
+    }
+
+    .searchbox .gsc-ta-clickWrap li:last-child {
+        margin: 0
+    }
+
+    .searchbox .gsc-ta-clickWrap li:after {
+        display: none
+    }
+
+    .searchbox .gsc-ta-clickWrap li.gsc-ta-active {
+        background: #24272c;
+        color: #fff
+    }
+
+    .searchbox .gsc-ta-clickWrap li.gsc-ta-active:before {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #24272c;
+        bottom: -10px;
+        content: "";
+        left: 50%;
+        margin-left: -10px;
+        position: absolute
+    }
+
+    .searchbox .radiobutton {
+        margin: 24px 0 15px
+    }
+
+    .searchbox .gsc_row {
+        margin: 0
+    }
+
+    .searchbox .gs_control {
+        color: rgba(36,39,44,.7);
+        font-weight: 500;
+        padding-left: 26px;
+        width: 115px
+    }
+
+    .searchbox .modelname {
+        display: inline-block;
+        margin-top: 10px;
+        width: 100%
+    }
+
+    .searchbox .modelname .customSelect input {
+        height: 51px;
+        line-height: 51px;
+        padding: 0 30px 0 20px
+    }
+
+    .searchbox .modelname .customSelect:after {
+        right: 22px;
+        top: 26px
+    }
+
+    .searchbox .modelname li:first-child input {
+        border-radius: 2px 2px 0 0
+    }
+
+    .searchbox .modelname li:nth-child(2) input {
+        border-radius: 0 0 2px 2px;
+        margin-top: -1px
+    }
+
+    .searchbox .button {
+        font-size: 20px;
+        margin-top: 24px
+    }
+
+    .searchbox .nextgen {
+        color: rgba(36,39,44,.7);
+        font-weight: 500;
+        margin-top: 15px;
+        text-align: right
+    }
+
+    .searchbox .nextgen span i {
+        color: #fff;
+        color: rgba(36,39,44,.7);
+        display: inline-block;
+        font-size: 11px;
+        margin-left: 5px;
+        transform: rotate(-180deg);
+        vertical-align: 0
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .HomeTopBanner li {
+        background-size:inherit;
+        position: relative
+    }
+}
+
+.LocIcon {
+    border: 5px solid #007fff;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: block;
+    height: 5px;
+    left: 15px;
+    position: absolute;
+    top: 17px;
+    width: 5px
+}
+
+.LocIcon:after {
+    background: #007fff;
+    content: "";
+    height: 8px;
+    left: -1px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px
+}
+
+h1 {
+    color: #24272c;
+    font-size: 24px;
+    font-weight: 400;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0
+}
+
+@media screen and (min-width: 992px) {
+    .searchbox h1 {
+        font-size:30px;
+        font-weight: 700
+    }
+}
+
